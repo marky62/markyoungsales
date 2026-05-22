@@ -339,11 +339,19 @@
     .included-heading:first-of-type {
       margin-top: 0;
     }
+
+    .faq-list {
       display: grid;
       gap: 32px;
       margin: 0;
       padding: 0;
-      list-style: none;
+      list-style: none !important;
+    }
+
+    .faq-list li {
+      list-style: none !important;
+      padding: 0;
+      margin: 0;
     }
 
     .faq-question {
@@ -364,13 +372,22 @@
       display: inline-block;
       margin-top: 40px;
     }
+
+    .footer-note {
       margin: 24px 0 0;
       color: #2E3944;
+      font-size: 13.5px;
+      line-height: 20px;
     }
 
     @media (max-width: 640px) {
       main, header, footer {
-        padding: 0 16px;
+        padding: 0 20px;
+      }
+
+      header {
+        padding-top: 32px;
+        padding-bottom: 32px;
       }
 
       section {
@@ -419,7 +436,7 @@
       <h1 class="display">A full diary isn't a territory strategy.</h1>
       <p class="lead">Here's what's actually driving the gap between your effort and your results.</p>
       <hr class="rule" />
-      <!-- VSL PLACEHOLDER — embed Vimeo player here once VSL is hosted -->
+      <!-- TODO: replace placeholder div with Vimeo embed once VSL is hosted -->
       <div class="placeholder">[VSL PLACEHOLDER — embed Vimeo player here once VSL is hosted]</div>
     </section>
 
@@ -569,15 +586,15 @@
           <h1>Get the 90-Day Account Plan</h1>
           <p class="price-display">£397</p>
           <p class="lead">Four-part on-demand video programme. Six working templates. One framework that fixes the actual problem.</p>
-          <!-- TODO: update href to Payhip link -->
-          <a class="button" href="#cta">Get the 90-Day Account Plan — £397</a>
+          <!-- TODO: update href to Payhip product link before going live -->
+          <a class="button" href="PAYHIP_LINK_HERE">Get the 90-Day Account Plan — £397</a>
         </div>
       </div>
     </section>
 
     <section data-section="guarantee">
       <p class="eyebrow">THE GUARANTEE</p>
-      <p class="body-copy">Work through Part 1 within 30 days of purchase. If you don't think it's worth your time, I'll refund you in full. I may ask for some brief feedback — not as a condition of the refund, but because I'm genuinely interested in what didn't work for you.</p>
+      <p class="body-copy">Work through Part 1 within 30 days of purchase. If you don't think it's worth your time, I'll refund you in full. I may ask for some brief feedback — not as a condition of the refund, but because understanding where it fell short helps me make it better.</p>
     </section>
 
     <section data-section="faq">
@@ -620,8 +637,10 @@
       <p class="body-copy">In most cases, that gap isn't a selling problem. It's a territory problem. And territory problems don't get fixed by working harder or selling better. They get fixed by making better decisions about where the time goes.</p>
       <p class="body-copy">The 90-Day Account Plan gives you the framework to do exactly that. It's structured, practical, and built on a methodology that has produced real results in real territories.</p>
       <p class="body-copy">You can carry on as you are and hope the numbers improve. Or you can spend 90 days working through a framework that's designed to fix the actual problem.</p>
-      <!-- TODO: update href to Payhip link -->
-      <a class="button button--inline" href="#cta">Get the 90-Day Account Plan — £397</a>
+      <!-- TODO: update href to Payhip product link before going live -->
+      <a class="button button--inline" href="PAYHIP_LINK_HERE">Get the 90-Day Account Plan — £397</a>
+    </section>
+  </main>
 
   <footer>
     <div class="wordmark">
