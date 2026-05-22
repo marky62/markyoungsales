@@ -12,8 +12,8 @@
       font-family: 'DM Sans', system-ui, sans-serif;
       color: #121417;
       background: #ffffff;
-      font-size: 16px;
-      line-height: 1.625;
+      font-size: 24px;
+      line-height: 1.65;
     }
 
     *, *::before, *::after {
@@ -37,7 +37,7 @@
     }
 
     header, main, footer {
-      max-width: 720px;
+      max-width: 880px;
       margin: 0 auto;
       padding: 0 24px;
     }
@@ -84,7 +84,7 @@
     .eyebrow {
       margin: 0 0 24px;
       color: #2E3944;
-      font-size: 11px;
+      font-size: 15px;
       line-height: 1.27;
       font-weight: 600;
       text-transform: uppercase;
@@ -120,15 +120,15 @@
 
     .lead {
       margin: 0 0 24px;
-      font-size: 19px;
-      line-height: 28px;
+      font-size: 28px;
+      line-height: 38px;
       font-weight: 400;
     }
 
     .body-copy {
       margin: 0 0 24px;
-      font-size: 16px;
-      line-height: 26px;
+      font-size: 18px;
+      line-height: 1.65;
       font-weight: 400;
     }
 
@@ -184,8 +184,8 @@
 
     .bullet-list li {
       padding-left: 0;
-      font-size: 16px;
-      line-height: 26px;
+      font-size: 18px;
+      line-height: 1.65;
       font-weight: 400;
       margin: 0;
     }
@@ -290,7 +290,7 @@
     }
 
     .cta-panel-inner {
-      max-width: 720px;
+      max-width: 880px;
       margin: 0 auto;
     }
 
@@ -363,8 +363,8 @@
 
     .faq-answer {
       margin: 0;
-      font-size: 16px;
-      line-height: 26px;
+      font-size: 18px;
+      line-height: 1.65;
       font-weight: 400;
     }
 
@@ -381,18 +381,10 @@
     }
 
     @media (max-width: 640px) {
-      main, header, footer {
-        padding: 0 20px;
-      }
-
-      header {
-        padding-top: 32px;
-        padding-bottom: 32px;
-      }
-
-      section {
-        padding: 60px 0;
-      }
+      main, header, footer { padding: 0 20px; }
+      header { padding-top: 32px; padding-bottom: 32px; }
+      section { padding: 60px 0; }
+      :root { font-size: 16px; }
 
       .display {
         font-size: 36px;
@@ -405,10 +397,25 @@
         line-height: 34px;
       }
 
-      .lead,
+      .lead {
+        font-size: 20px !important;
+        line-height: 30px !important;
+      }
+
       .body-copy,
       .faq-answer {
-        font-size: 16px;
+        font-size: 16px !important;
+        line-height: 26px !important;
+      }
+
+      .bullet-list li {
+        font-size: 16px !important;
+        line-height: 26px !important;
+      }
+
+      .quote-block {
+        font-size: 18px !important;
+        line-height: 27px !important;
       }
 
       .two-columns {
