@@ -4,353 +4,184 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Work With Me — Mark Young Sales</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
-
-    :root {
-      color-scheme: light;
-      font-family: 'DM Sans', system-ui, sans-serif;
-      color: #121417;
-      background: #ffffff;
-      font-size: 16px;
-      line-height: 1.625;
-    }
-
-    *, *::before, *::after {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      margin: 0;
-      min-height: 100vh;
-      background: #ffffff;
-      color: #121417;
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 17px;
+      line-height: 1.7;
     }
 
-    a {
-      color: inherit;
-      text-decoration: none;
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid #1f1f1f;
+      padding: 24px 32px;
     }
-
-    header, main, footer {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-
-    section {
-      padding: 60px 0;
-    }
-
-    header, footer {
-      padding: 40px 0;
-    }
-
     .wordmark {
-      display: inline-flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-
-    .wordmark__title {
-      font-size: 28px;
-      line-height: 1;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      margin: 0;
-    }
-
-    .wordmark__rule {
-      width: 100%;
-      height: 1px;
-      background: #121417;
-      border: 0;
-      margin: 0;
-    }
-
-    .wordmark__subtitle {
-      margin: 0;
-      font-size: 11px;
-      line-height: 1.27;
+      font-size: 15px;
       font-weight: 600;
-      letter-spacing: 0.18em;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
-    }
-
-    .eyebrow {
-      margin: 0 0 24px;
-      color: #2E3944;
-      font-size: 11px;
-      line-height: 1.27;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-    }
-
-    .display {
-      margin: 0 0 24px;
-      font-size: 56px;
-      line-height: 60px;
-      font-weight: 700;
-      letter-spacing: -0.025em;
-      max-width: 100%;
-    }
-
-    .lead {
-      margin: 0 0 24px;
-      font-size: 19px;
-      line-height: 28px;
-      font-weight: 400;
-    }
-
-    .body-copy {
-      margin: 0 0 24px;
-      font-size: 16px;
-      line-height: 26px;
-      font-weight: 400;
-    }
-
-    .body-copy--strong {
-      font-weight: 600;
-    }
-
-    .small-copy {
-      margin: 0;
-      font-size: 13.5px;
-      line-height: 20px;
-      color: #2E3944;
-    }
-
-    .rule {
-      width: 100%;
-      border: 0;
-      height: 1px;
-      background: #D1CBBE;
-      margin: 0;
-    }
-
-    .panel {
-      background: #F2EEE6;
-      border-left: 2px solid #2E3944;
-      padding: 32px;
-    }
-
-    .panel + .panel {
-      margin-top: 24px;
-    }
-
-    .panel-title {
-      margin: 0 0 16px;
-      font-size: 22px;
-      line-height: 28px;
-      font-weight: 700;
-      letter-spacing: -0.01em;
-    }
-
-    .panel-price {
-      margin: 0 0 16px;
-      font-size: 32px;
-      line-height: 38px;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-    }
-
-    .button {
-      display: inline-block;
-      background: #121417;
       color: #ffffff;
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 24px;
-      padding: 18px 40px;
-      border: 0;
       text-decoration: none;
-      cursor: pointer;
-      font-family: 'DM Sans', system-ui, sans-serif;
-      transition: background 0.2s ease;
-      margin-top: 8px;
+    }
+    .wordmark span {
+      color: #E6B84A;
     }
 
-    .button:hover,
-    .button:focus-visible {
-      background: #2E3944;
+    /* ── Layout ── */
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 72px 32px 96px;
     }
 
-    .button--ghost {
-      background: transparent;
-      color: #121417;
-      border: 2px solid #121417;
+    /* ── Headline ── */
+    h1 {
+      font-size: clamp(36px, 6vw, 52px);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 28px;
     }
 
-    .button--ghost:hover,
-    .button--ghost:focus-visible {
-      background: #F2EEE6;
+    .intro {
+      font-size: 18px;
+      color: #cccccc;
+      margin-bottom: 64px;
     }
 
-    /* Form styles */
-    .form-field {
-      margin: 0 0 24px;
+    /* ── Divider ── */
+    .divider {
+      border: none;
+      border-top: 1px solid #2a2a2a;
+      margin: 56px 0;
     }
 
-    .form-label {
-      display: block;
-      margin: 0 0 8px;
-      font-size: 14px;
-      line-height: 20px;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-    }
-
-    .form-input,
-    .form-textarea {
-      display: block;
-      width: 100%;
-      padding: 14px 16px;
-      font-size: 16px;
-      line-height: 24px;
-      font-family: 'DM Sans', system-ui, sans-serif;
-      color: #121417;
-      background: #ffffff;
-      border: 1px solid #D1CBBE;
-      border-radius: 0;
-      appearance: none;
-      transition: border-color 0.2s ease;
-    }
-
-    .form-input:focus,
-    .form-textarea:focus {
-      outline: none;
-      border-color: #121417;
-    }
-
-    .form-textarea {
-      min-height: 120px;
-      resize: vertical;
-    }
-
-    .form-submit {
-      width: 100%;
-      padding: 18px 40px;
-      font-size: 16px;
-      line-height: 24px;
-      font-weight: 600;
-      font-family: 'DM Sans', system-ui, sans-serif;
+    /* ── Section headings ── */
+    h2 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 20px;
       color: #ffffff;
-      background: #121417;
-      border: 0;
-      cursor: pointer;
-      transition: background 0.2s ease;
     }
 
-    .form-submit:hover,
-    .form-submit:focus-visible {
-      background: #2E3944;
-      outline: none;
+    p {
+      color: #cccccc;
+      margin-bottom: 20px;
     }
 
-    .divider-label {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      margin: 48px 0;
-      color: #2E3944;
-      font-size: 11px;
+    /* ── Questions ── */
+    .questions {
+      margin: 24px 0 32px;
+    }
+    .questions p {
+      font-style: italic;
+      color: #aaaaaa;
+      margin-bottom: 14px;
+      padding-left: 16px;
+      border-left: 3px solid #E6B84A;
+    }
+
+    /* ── Kit form ── */
+    .kit-form-wrapper {
+      margin-top: 32px;
+    }
+
+    /* ── Call section ── */
+    .call-section {
+      margin-top: 56px;
+    }
+
+    .price-line {
+      font-size: 17px;
       font-weight: 600;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
+      color: #ffffff;
+      margin-bottom: 28px;
     }
 
-    .divider-label::before,
-    .divider-label::after {
-      content: '';
-      flex: 1;
-      height: 1px;
-      background: #D1CBBE;
+    /* ── CTA Button ── */
+    .btn {
+      display: inline-block;
+      background-color: #E6B84A;
+      color: #0d0d0d;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 16px 36px;
+      text-decoration: none;
+      border-radius: 4px;
+      letter-spacing: 0.02em;
+      transition: background-color 0.2s ease;
+    }
+    .btn:hover {
+      background-color: #d4a63c;
     }
 
-    .footer-note {
-      margin: 24px 0 0;
-      color: #2E3944;
-      font-size: 13.5px;
-      line-height: 20px;
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid #1f1f1f;
+      padding: 32px;
+      text-align: center;
+      font-size: 13px;
+      color: #555555;
     }
 
-    @media (max-width: 640px) {
-      main, header, footer {
-        padding: 0 16px;
-      }
-
-      .display {
-        font-size: 36px;
-        line-height: 42px;
-      }
-
-      .panel {
-        padding: 24px;
-      }
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      .container { padding: 48px 24px 72px; }
+      header { padding: 20px 24px; }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <a href="/" class="wordmark">
-      <h1 class="wordmark__title">Mark Young Sales</h1>
-      <hr class="wordmark__rule" />
-      <p class="wordmark__subtitle">B2B Sales Territory Management</p>
-    </a>
+    <a href="/" class="wordmark">Mark Young <span>Sales</span></a>
   </header>
 
   <main>
+    <div class="container">
 
-    <section data-section="intro">
-      <p class="eyebrow">WORK WITH ME</p>
-      <h2 class="display">If you've recognised your own territory in the videos, there are two ways I can help.</h2>
-      <p class="lead">The methodology I've covered in the series isn't theoretical. It's a structured way of thinking about your territory, your accounts, and your live opportunities — and it changes what you do on Monday morning.</p>
-    </section>
+      <h1>Work With Me</h1>
 
-    <hr class="rule" />
+      <p class="intro">If you've watched the videos and recognised your own territory in what I've covered, there are two ways I can help.</p>
 
-    <section data-section="mentorship">
-      <p class="eyebrow">ONE-TO-ONE MENTORSHIP PROGRAMME</p>
-      <h2 class="display" style="font-size:40px; line-height:44px;">A structured programme built around your territory.</h2>
-      <p class="body-copy">I'm developing a one-to-one mentorship programme for B2B field salespeople and area managers who want to apply this methodology properly — to their own accounts, their own numbers, and their own situation.</p>
-      <p class="body-copy">It isn't available yet. I'm not going to put something out until I'm confident it's worth your time, which means building it properly around the real challenges field salespeople are facing.</p>
-      <p class="body-copy">If you'd like to be considered when places become available, answer the two questions below and I'll be in touch.</p>
+      <!-- ── Section 1: Mentorship Waitlist ── -->
+      <h2>One-to-One Mentorship Programme</h2>
 
-      <!-- Kit embed form -->
-      <div style="margin-top: 32px;">
+      <p>I'm developing a structured mentorship programme for B2B field salespeople and area managers who want to apply this methodology to their own territory, their own accounts, and their own numbers.</p>
+
+      <p>It isn't available yet. If you'd like to be considered when it is, answer the two questions below and I'll be in touch.</p>
+
+      <div class="questions">
+        <p>What does your current territory look like — how many accounts are you managing, and what's your main challenge right now?</p>
+        <p>What are the three biggest challenges you're facing on your sales visits at the moment?</p>
+      </div>
+
+      <!-- Kit embed — replace YOUR-SUBDOMAIN with your Kit account subdomain (e.g. markyoungsales) -->
+      <div class="kit-form-wrapper">
         <script async data-uid="d0246a3288" src="https://mark-young-sales.kit.com/d0246a3288/index.js"></script>
       </div>
-      <p class="footer-note" style="margin-top: 16px;">I'll read through what you've shared and be in touch when places become available.</p>
-    </section>
 
-    <div class="divider-label">OR</div>
+      <hr class="divider" />
 
-    <section data-section="coaching-call" style="padding-top: 0;">
-      <p class="eyebrow">NOT PREPARED TO WAIT?</p>
-      <h2 class="display" style="font-size:40px; line-height:44px;">Book a coaching call.</h2>
-      <p class="body-copy">If you'd rather talk through your specific situation now, you can book a 45-minute call with me directly. We'll work through your territory, your accounts, and what to do about it.</p>
-
-      <div class="panel">
-        <p class="panel-title">45-Minute Coaching Call</p>
-        <p class="body-copy">A focused one-to-one conversation built around your territory and your challenges. No generic advice. We work through your specific situation using the same methodology covered in the videos.</p>
-        <p class="panel-price">£150</p>
-        <p class="small-copy">Book and pay in one step. You'll receive a confirmation and calendar invite immediately.</p>
-        <!-- Replace href with your Calendly + Stripe link -->
-        <a href="https://tidycal.com/1xgq9l5/45-minute-coaching-call" class="button" style="margin-top: 24px; display: inline-block;">Book a call — £150</a>
+      <!-- ── Section 2: Coaching Call ── -->
+      <div class="call-section">
+        <h2>Not prepared to wait?</h2>
+        <p>If you'd rather talk through your specific situation now, you can book a 45-minute coaching call with me directly.</p>
+        <p class="price-line">£150. No pitch. Just a focused conversation about your territory and what to do about it.</p>
+        <a href="https://tidycal.com/1xgq9l5/45-minute-coaching-call" class="btn" target="_blank" rel="noopener">Book a Call — £150</a>
       </div>
-    </section>
 
+    </div>
   </main>
 
   <footer>
-    <hr class="rule" />
-    <p class="footer-note" style="margin-top: 24px;">© Mark Young Sales. <a href="/" style="text-decoration: underline;">Back to main site</a>.</p>
+    &copy; 2026 Mark Young Sales. All rights reserved.
   </footer>
 
 </body>
