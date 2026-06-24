@@ -4,33 +4,56 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Work With Me — Mark Young Sales</title>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    body {
-      background-color: #0d0d0d;
-      color: #ffffff;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 17px;
-      line-height: 1.7;
+    :root {
+      --paper:  #FFFFFF;
+      --ink:    #121417;
+      --slate:  #2E3944;
+      --oat:    #F2EEE6;
     }
 
-    /* ── Header ── */
+    body {
+      background-color: var(--paper);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.625; /* 26px */
+    }
+
+    /* ── Header / Wordmark ── */
     header {
-      border-bottom: 1px solid #1f1f1f;
+      border-bottom: 1px solid #e0ddd8;
       padding: 24px 32px;
     }
+
     .wordmark {
-      font-size: 15px;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #ffffff;
+      display: inline-block;
       text-decoration: none;
+      color: var(--ink);
     }
-    .wordmark span {
-      color: #E6B84A;
+    .wordmark-name {
+      display: block;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1;
+      letter-spacing: -0.01em;
+    }
+    .wordmark-rule {
+      display: block;
+      height: 1px;
+      background: var(--ink);
+      margin: 4px 0;
+    }
+    .wordmark-sub {
+      display: block;
+      font-size: 9.5px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      line-height: 1;
     }
 
     /* ── Layout ── */
@@ -42,105 +65,130 @@
 
     /* ── Headline ── */
     h1 {
-      font-size: clamp(36px, 6vw, 52px);
+      font-size: 40px;
       font-weight: 700;
-      line-height: 1.1;
+      line-height: 1.1; /* 44px */
+      letter-spacing: -0.02em;
       margin-bottom: 28px;
+      color: var(--ink);
     }
 
-    .intro {
-      font-size: 18px;
-      color: #cccccc;
-      margin-bottom: 64px;
+    /* ── Lead ── */
+    .lead {
+      font-size: 19px;
+      line-height: 1.47; /* 28px */
+      color: var(--ink);
+      margin-bottom: 56px;
+    }
+
+    /* ── Section headings ── */
+    h2 {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.18; /* 33px */
+      letter-spacing: -0.015em;
+      margin-bottom: 20px;
+      color: var(--ink);
+    }
+
+    /* ── Eyebrow ── */
+    .eyebrow {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--slate);
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.625;
+      color: var(--ink);
+      margin-bottom: 20px;
+    }
+
+    /* ── Questions callout ── */
+    .questions {
+      background: var(--oat);
+      border-left: 2px solid var(--slate);
+      padding: 24px 28px;
+      margin: 28px 0 36px;
+    }
+    .questions p {
+      font-style: italic;
+      font-weight: 500;
+      margin-bottom: 14px;
+      color: var(--ink);
+    }
+    .questions p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ── Kit form wrapper ── */
+    .kit-form-wrapper {
+      margin-top: 8px;
     }
 
     /* ── Divider ── */
     .divider {
       border: none;
-      border-top: 1px solid #2a2a2a;
+      border-top: 1px solid #e0ddd8;
       margin: 56px 0;
     }
 
-    /* ── Section headings ── */
-    h2 {
-      font-size: 24px;
-      font-weight: 700;
-      margin-bottom: 20px;
-      color: #ffffff;
-    }
-
-    p {
-      color: #cccccc;
-      margin-bottom: 20px;
-    }
-
-    /* ── Questions ── */
-    .questions {
-      margin: 24px 0 32px;
-    }
-    .questions p {
-      font-style: italic;
-      color: #aaaaaa;
-      margin-bottom: 14px;
-      padding-left: 16px;
-      border-left: 3px solid #E6B84A;
-    }
-
-    /* ── Kit form ── */
-    .kit-form-wrapper {
-      margin-top: 32px;
-    }
-
-    /* ── Call section ── */
-    .call-section {
-      margin-top: 56px;
-    }
-
+    /* ── Price line ── */
     .price-line {
-      font-size: 17px;
+      font-size: 16px;
       font-weight: 600;
-      color: #ffffff;
-      margin-bottom: 28px;
+      color: var(--ink);
+      margin-bottom: 32px;
     }
 
     /* ── CTA Button ── */
     .btn {
       display: inline-block;
-      background-color: #E6B84A;
-      color: #0d0d0d;
+      background-color: var(--slate);
+      color: #ffffff;
       font-family: 'DM Sans', sans-serif;
-      font-size: 16px;
-      font-weight: 700;
+      font-size: 15px;
+      font-weight: 600;
       padding: 16px 36px;
       text-decoration: none;
-      border-radius: 4px;
-      letter-spacing: 0.02em;
+      border-radius: 3px;
+      letter-spacing: 0.01em;
       transition: background-color 0.2s ease;
     }
     .btn:hover {
-      background-color: #d4a63c;
+      background-color: #1f2830;
     }
 
     /* ── Footer ── */
     footer {
-      border-top: 1px solid #1f1f1f;
+      border-top: 1px solid #e0ddd8;
       padding: 32px;
       text-align: center;
       font-size: 13px;
-      color: #555555;
+      color: #888;
     }
 
     /* ── Responsive ── */
     @media (max-width: 600px) {
       .container { padding: 48px 24px 72px; }
       header { padding: 20px 24px; }
+      h1 { font-size: 32px; }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <a href="/" class="wordmark">Mark Young <span>Sales</span></a>
+    <a href="/" class="wordmark">
+      <span class="wordmark-name">Mark Young</span>
+      <span class="wordmark-rule"></span>
+      <span class="wordmark-sub">Sales</span>
+    </a>
   </header>
 
   <main>
@@ -148,10 +196,11 @@
 
       <h1>Work With Me</h1>
 
-      <p class="intro">If you've watched the videos and recognised your own territory in what I've covered, there are two ways I can help.</p>
+      <p class="lead">If you've watched the videos and recognised your own territory in what I've covered, there are two ways I can help.</p>
 
       <!-- ── Section 1: Mentorship Waitlist ── -->
-      <h2>One-to-One Mentorship Programme</h2>
+      <span class="eyebrow">One-to-One</span>
+      <h2>Mentorship Programme</h2>
 
       <p>I'm developing a structured mentorship programme for B2B field salespeople and area managers who want to apply this methodology to their own territory, their own accounts, and their own numbers.</p>
 
@@ -162,7 +211,6 @@
         <p>What are the three biggest challenges you're facing on your sales visits at the moment?</p>
       </div>
 
-      <!-- Kit embed — replace YOUR-SUBDOMAIN with your Kit account subdomain (e.g. markyoungsales) -->
       <div class="kit-form-wrapper">
         <script async data-uid="d0246a3288" src="https://mark-young-sales.kit.com/d0246a3288/index.js"></script>
       </div>
@@ -170,12 +218,14 @@
       <hr class="divider" />
 
       <!-- ── Section 2: Coaching Call ── -->
-      <div class="call-section">
-        <h2>Not prepared to wait?</h2>
-        <p>If you'd rather talk through your specific situation now, you can book a 45-minute coaching call with me directly.</p>
-        <p class="price-line">£150. No pitch. Just a focused conversation about your territory and what to do about it.</p>
-        <a href="https://tidycal.com/1xgq9l5/45-minute-coaching-call" class="btn" target="_blank" rel="noopener">Book a Call — £150</a>
-      </div>
+      <span class="eyebrow">Not prepared to wait?</span>
+      <h2>Book a Coaching Call</h2>
+
+      <p>If you'd rather talk through your specific situation now, you can book a 45-minute coaching call with me directly.</p>
+
+      <p class="price-line">£150. No pitch. Just a focused conversation about your territory and what to do about it.</p>
+
+      <a href="https://tidycal.com/1xgq9l5/45-minute-coaching-call" class="btn" target="_blank" rel="noopener">Book a Call — £150</a>
 
     </div>
   </main>
