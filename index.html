@@ -3,659 +3,182 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mark Young Sales — 90-Day Account Plan</title>
+  <title>Mark Young Sales</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet" />
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      color-scheme: light;
-      font-family: 'DM Sans', system-ui, sans-serif;
-      color: #121417;
-      background: #ffffff;
-      font-size: 24px;
-      line-height: 1.65;
-    }
-
-    *, *::before, *::after {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
+      --paper:  #FFFFFF;
+      --ink:    #121417;
+      --slate:  #2E3944;
+      --oat:    #F2EEE6;
     }
 
     body {
-      margin: 0;
+      background-color: var(--paper);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px;
+      line-height: 1.625;
       min-height: 100vh;
-      background: #ffffff;
-      color: #121417;
+      display: flex;
+      flex-direction: column;
     }
 
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    header, main, footer {
-      max-width: 880px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-
-    section {
-      padding: 60px 0;
-    }
-
-    header, footer {
-      padding: 40px 0;
+    /* ── Header / Wordmark ── */
+    header {
+      border-bottom: 1px solid #e0ddd8;
+      padding: 24px 32px;
     }
 
     .wordmark {
-      display: inline-flex;
-      flex-direction: column;
-      gap: 14px;
+      display: inline-block;
+      text-decoration: none;
+      color: var(--ink);
     }
-
-    .wordmark__title {
-      font-size: 28px;
-      line-height: 1;
+    .wordmark-name {
+      display: block;
+      font-size: 15px;
       font-weight: 700;
-      letter-spacing: -0.02em;
-      margin: 0;
+      line-height: 1;
+      letter-spacing: -0.01em;
     }
-
-    .wordmark__rule {
-      width: 100%;
+    .wordmark-rule {
+      display: block;
       height: 1px;
-      background: #121417;
-      border: 0;
-      margin: 0;
+      background: var(--ink);
+      margin: 4px 0;
     }
-
-    .wordmark__subtitle {
-      margin: 0;
-      font-size: 11px;
-      line-height: 1.27;
+    .wordmark-sub {
+      display: block;
+      font-size: 9.5px;
       font-weight: 600;
       letter-spacing: 0.18em;
       text-transform: uppercase;
+      line-height: 1;
     }
 
+    /* ── Layout ── */
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 80px 32px 96px;
+    }
+
+    /* ── Eyebrow ── */
     .eyebrow {
-      margin: 0 0 24px;
-      color: #2E3944;
-      font-size: 15px;
-      line-height: 1.27;
+      display: block;
+      font-size: 11px;
       font-weight: 600;
-      text-transform: uppercase;
       letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--slate);
+      margin-bottom: 16px;
     }
 
-    .display {
-      margin: 0 0 24px;
-      font-size: 56px;
-      line-height: 60px;
-      font-weight: 700;
-      letter-spacing: -0.025em;
-      max-width: 100%;
-    }
-
-    .section-title {
-      margin: 0 0 24px;
+    h1 {
       font-size: 40px;
-      line-height: 44px;
       font-weight: 700;
+      line-height: 1.1;
       letter-spacing: -0.02em;
-      max-width: 100%;
+      color: var(--ink);
+      margin-bottom: 24px;
     }
 
-    .section-subtitle {
-      margin: 0 0 24px;
-      font-size: 28px;
-      line-height: 33px;
-      font-weight: 700;
-      letter-spacing: -0.015em;
-      max-width: 100%;
+    p {
+      font-size: 19px;
+      line-height: 1.47;
+      color: var(--ink);
+      margin-bottom: 40px;
     }
 
-    .lead {
-      margin: 0 0 24px;
-      font-size: 28px;
-      line-height: 38px;
-      font-weight: 400;
-    }
-
-    .body-copy {
-      margin: 0 0 24px;
-      font-size: 18px;
-      line-height: 1.65;
-      font-weight: 400;
-    }
-
-    .body-copy--strong {
-      font-weight: 600;
-    }
-
-    .small-copy {
-      margin: 0;
-      font-size: 13.5px;
-      line-height: 20px;
-      color: #2E3944;
-    }
-
-    .rule {
-      width: 100%;
-      border: 0;
-      height: 1px;
-      background: #121417;
-      margin: 40px 0 0;
-    }
-
-    .panel {
-      background: #F2EEE6;
-      border-left: 2px solid #2E3944;
-      padding: 32px;
-    }
-
-    .placeholder {
-      display: grid;
-      place-items: center;
-      min-height: 0;
-      width: 100%;
-      aspect-ratio: 16 / 9;
-      background: #F2EEE6;
-      border: 1px solid #D1CBBE;
-      color: #2E3944;
-      font-size: 13.5px;
-      line-height: 20px;
-      text-align: center;
-      padding: 16px;
-      margin-top: 40px;
-    }
-
-    .bullet-list {
-      margin: 0;
-      padding: 0 0 0 24px;
-      list-style: none;
-      border-left: 2px solid #2E3944;
-      display: grid;
+    /* ── Buttons ── */
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
       gap: 12px;
     }
 
-    .bullet-list li {
-      padding-left: 0;
-      font-size: 18px;
-      line-height: 1.65;
-      font-weight: 400;
-      margin: 0;
-    }
-
-    .quote-block {
-      margin: 40px 0 24px;
-      padding-left: 40px;
-      border-left: 2px solid #2E3944;
-      font-size: 24px;
-      line-height: 32px;
-      font-weight: 500;
-      font-style: italic;
-      color: #121417;
-    }
-
-    .testimonial-block {
-      margin: 40px 0 0;
-      padding: 32px 32px 32px 40px;
-      border-left: 2px solid #E6B84A;
-      background: #F2EEE6;
-    }
-
-    .testimonial-block + .testimonial-block {
-      margin-top: 24px;
-    }
-
-    .testimonial-quote {
-      margin: 0 0 20px;
-      font-size: 17px;
-      line-height: 27px;
-      font-weight: 400;
-      font-style: italic;
-      color: #121417;
-    }
-
-    .testimonial-attribution {
-      margin: 0;
-      font-size: 13px;
-      line-height: 18px;
-      font-weight: 600;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      color: #2E3944;
-    }
-
-    .framework-list {
-      display: grid;
-      gap: 24px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    .framework-item {
-      background: #F2EEE6;
-      border-left: 2px solid #2E3944;
-      padding: 32px;
-    }
-
-    .framework-number {
-      margin: 0 0 12px;
-      font-size: 32px;
-      line-height: 38px;
-      font-weight: 700;
-      color: #2E3944;
-    }
-
-    .framework-title {
-      margin: 0 0 12px;
-      font-size: 18px;
-      line-height: 24px;
-      font-weight: 600;
-      letter-spacing: -0.005em;
-    }
-
-    .two-columns {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 32px;
-      align-items: start;
-    }
-
-    .column {
-      display: grid;
-      gap: 16px;
-      align-self: start;
-    }
-
-    .column h3 {
-      margin: 0 0 12px;
-      font-size: 18px;
-      line-height: 24px;
-      font-weight: 600;
-      letter-spacing: -0.005em;
-    }
-
-    .cta-panel {
-      background: #121417;
-      color: #ffffff;
-      padding: 80px 32px;
-      margin: 0 -24px;
-    }
-
-    .cta-panel-inner {
-      max-width: 880px;
-      margin: 0 auto;
-    }
-
-    .cta-panel h1 {
-      margin: 0 0 24px;
-      font-size: 40px;
-      line-height: 44px;
-      font-weight: 700;
-      color: #ffffff;
-    }
-
-    .price-display {
-      margin: 0 0 24px;
-      font-size: 56px;
-      line-height: 60px;
-      font-weight: 700;
-      color: #ffffff;
-    }
-
-    .button {
+    .btn {
       display: inline-block;
-      background: #ffffff;
-      color: #121417;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
       font-weight: 600;
-      font-size: 16px;
-      line-height: 24px;
-      padding: 18px 40px;
-      border: 0;
+      padding: 16px 36px;
       text-decoration: none;
-      transition: background 0.2s ease;
+      border-radius: 3px;
+      letter-spacing: 0.01em;
+      transition: background-color 0.2s ease;
     }
 
-    .button:hover,
-    .button:focus-visible {
-      background: #F2EEE6;
+    .btn-primary {
+      background-color: var(--slate);
+      color: #ffffff;
+    }
+    .btn-primary:hover {
+      background-color: #1f2830;
     }
 
-    .included-heading {
-      margin: 40px 0 16px;
-      font-size: 18px;
-      line-height: 24px;
-      font-weight: 600;
-      letter-spacing: -0.005em;
+    .btn-secondary {
+      background-color: transparent;
+      color: var(--slate);
+      border: 1.5px solid var(--slate);
+    }
+    .btn-secondary:hover {
+      background-color: var(--oat);
     }
 
-    .included-heading:first-of-type {
-      margin-top: 0;
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid #e0ddd8;
+      padding: 32px;
+      text-align: center;
+      font-size: 13px;
+      color: #888;
     }
 
-    .faq-list {
-      display: grid;
-      gap: 32px;
-      margin: 0;
-      padding: 0;
-      list-style: none !important;
-    }
-
-    .faq-list li {
-      list-style: none !important;
-      padding: 0;
-      margin: 0;
-    }
-
-    .faq-question {
-      margin: 0 0 12px;
-      font-size: 18px;
-      line-height: 24px;
-      font-weight: 600;
-    }
-
-    .faq-answer {
-      margin: 0;
-      font-size: 18px;
-      line-height: 1.65;
-      font-weight: 400;
-    }
-
-    .button--inline {
-      display: inline-block;
-      margin-top: 40px;
-    }
-
-    .footer-note {
-      margin: 24px 0 0;
-      color: #2E3944;
-      font-size: 13.5px;
-      line-height: 20px;
-    }
-
-    @media (max-width: 640px) {
-      main, header, footer { padding: 0 20px; }
-      header { padding-top: 32px; padding-bottom: 32px; }
-      section { padding: 60px 0; }
-      :root { font-size: 16px; }
-
-      .display {
-        font-size: 36px;
-        line-height: 42px;
-      }
-
-      .section-title,
-      .cta-panel h1 {
-        font-size: 28px;
-        line-height: 34px;
-      }
-
-      .lead {
-        font-size: 20px !important;
-        line-height: 30px !important;
-      }
-
-      .body-copy,
-      .faq-answer {
-        font-size: 16px !important;
-        line-height: 26px !important;
-      }
-
-      .bullet-list li {
-        font-size: 16px !important;
-        line-height: 26px !important;
-      }
-
-      .quote-block {
-        font-size: 18px !important;
-        line-height: 27px !important;
-      }
-
-      .two-columns {
-        grid-template-columns: 1fr;
-      }
-
-      .cta-panel {
-        margin: 0 -16px;
-        padding: 60px 24px;
-      }
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      .container { padding: 56px 24px 72px; }
+      header { padding: 20px 24px; }
+      h1 { font-size: 32px; }
+      .btn-group { flex-direction: column; }
+      .btn { text-align: center; }
     }
   </style>
 </head>
 <body>
+
   <header>
-    <div class="wordmark">
-      <p class="wordmark__title">MARK YOUNG</p>
-      <hr class="wordmark__rule" />
-      <p class="wordmark__subtitle">SALES</p>
-    </div>
+    <a href="/" class="wordmark">
+      <span class="wordmark-name">Mark Young</span>
+      <span class="wordmark-rule"></span>
+      <span class="wordmark-sub">Sales</span>
+    </a>
   </header>
 
   <main>
-    <section data-section="hero">
-      <h1 class="display">A full diary isn't a territory strategy.</h1>
-      <p class="lead">Here's what's actually driving the gap between your effort and your results.</p>
-      <hr class="rule" />
-      <!-- TODO: replace placeholder div with Vimeo embed once VSL is hosted -->
-      <div class="placeholder">[VSL PLACEHOLDER — embed Vimeo player here once VSL is hosted]</div>
-    </section>
-
-    <section data-section="problem-identification" style="padding-bottom:0;">
-      <p class="eyebrow">DOES THIS SOUND LIKE YOU?</p>
-      <p class="lead">You're putting the work in. Your days are full, your diary is busy, the meetings are happening. But the numbers aren't moving the way they should.</p>
-      <ul class="bullet-list">
-        <li>You're covering your territory but you never seem to have enough hours in the day to do everything that needs doing</li>
-        <li>You've got accounts you've been visiting for years that have never reached their potential — but dropping them feels wrong</li>
-        <li>You know you should be developing new business, but there's just no time left in the week to get around to it</li>
-        <li>You finish a day of calls feeling unsure you've actually moved anything forward</li>
-        <li>You're hitting activity targets but missing revenue targets — and you can't work out why</li>
-      </ul>
-      <p class="body-copy body-copy--strong" style="padding-left:24px; margin-top:16px;">You're not alone. And it's not a selling problem.</p>
-    </section>
-
-    <section data-section="credibility-origin" style="padding-top:40px;">
-      <p class="eyebrow">IT TOOK ME A LONG TIME TO SEE IT TOO</p>
-      <p class="body-copy">I've spent years managing and leading B2B sales teams. Good people. Hard workers with full diaries.</p>
-      <p class="body-copy">And for a long time, when the numbers weren't right, the conversation always went to the same places. More calls. Sharper technique. Better objection handling. Work the pipeline harder.</p>
-      <p class="body-copy">It didn't move the needle. Not consistently. Not in the way it should have.</p>
-      <p class="body-copy">Then something shifted. I stopped looking at how the team was selling and started looking at where they were selling. Not where they thought they were spending their time. Where they were actually spending it.</p>
-      <p class="body-copy">What the data showed was uncomfortable.</p>
-      <p class="body-copy">A significant proportion of visiting time was going to accounts that had no realistic chance of moving the revenue numbers. Not because the salespeople were making bad decisions — but because nobody had ever given them a framework for making that decision in the first place. They were working on instinct, on habit, on relationships built over years. And instinct, habit and relationships are not a territory strategy.</p>
-      <p class="body-copy">So we rebuilt it from the ground up.</p>
-      <p class="body-copy">We ranked every account by what it was actually generating. We drew a clear line at 80% of territory revenue and let the data decide which accounts were genuinely driving the business. We made deliberate decisions about which accounts got physical time, which got managed at a distance, and which were quietly let go.</p>
-      <p class="body-copy">Then we took the capacity that released and pointed it at the accounts — and the prospects — that actually deserved it.</p>
-      <div class="quote-block">The result was 60% more revenue. From roughly half the accounts we started with.</div>
-      <p class="body-copy">Same team. Same territory. Same number of days on the road. Different decisions about where the time went.</p>
-      <p class="body-copy">That is what the 90-Day Account Plan is built on.</p>
-
-      <div class="testimonial-block">
-        <p class="testimonial-quote">"I'd been carrying the same 180 accounts for three years and genuinely thought I was managing them. Turns out I was just visiting them. The territory section alone changed how I think about my week — I cut my account list, freed up real capacity, and started actually growing the ones that matter."</p>
-        <p class="testimonial-attribution">Karen Delaney — Regional Sales Manager, Facilities Management</p>
+    <div class="container">
+      <span class="eyebrow">B2B Sales Coaching</span>
+      <h1>Thirty years of field sales. One methodology.</h1>
+      <p>I help B2B salespeople stop managing too many accounts and start building a territory that actually grows. The free videos are on YouTube — start there.</p>
+      <div class="btn-group">
+        <a href="https://www.youtube.com/channel/UCFkRlStYhrbkHOnP7XtNMuw" class="btn btn-primary" target="_blank" rel="noopener">Watch the Videos</a>
+        <a href="/work-with-me.html" class="btn btn-secondary">Work With Me</a>
       </div>
-
-      <div class="testimonial-block">
-        <p class="testimonial-quote">"The Five Filters thing is what got me. I had a deal I'd been working for four months that I was convinced was nearly there. Put it through the filters and it failed on four out of five. Uncomfortable to admit, but it saved me another two months chasing something that wasn't going anywhere."</p>
-        <p class="testimonial-attribution">Steve Hardwick — Field Sales Executive, Packaging Distribution</p>
-      </div>
-    </section>
-
-    <section data-section="reframe">
-      <p class="eyebrow">WHY BETTER SELLING DOESN'T FIX THIS</p>
-      <p class="body-copy">There is no shortage of sales training. Most of it focuses on the same things — how to open a call, how to handle objections, how to close. That training has its place.</p>
-      <p class="body-copy">But it doesn't fix the underlying problem.</p>
-      <p class="body-copy">If your time is going to the wrong accounts, better technique won't save you. You'll close more business with accounts that aren't capable of moving your numbers. The effort goes up. The results don't follow.</p>
-      <p class="body-copy">The reason most salespeople never identify this is that the problem is invisible from the inside. A full diary feels like productivity. A long account list feels like opportunity. Busy feels like progress.</p>
-      <p class="body-copy">It isn't.</p>
-      <p class="body-copy">The 90-Day Account Plan works differently. It doesn't start with how you sell. It starts with where you sell — and it gives you a structured, data-led way to make sure your time is going to the accounts that can actually move the needle.</p>
-      <p class="body-copy">It works across industries. It works for capital sales and for account-based sales. It works whether you have 50 accounts or 200. The process is universal. The figures are your own.</p>
-      <p class="body-copy">And if you already have a strong instinct about which accounts matter — the framework will either validate that instinct or show you something your instinct missed. Either way, you leave with clarity you didn't have before.</p>
-    </section>
-
-    <section data-section="framework">
-      <p class="eyebrow">HOW THE FRAMEWORK WORKS</p>
-      <p class="body-copy">The 90-Day Account Plan works across four disciplines, in a specific order. Each one builds on the last.</p>
-      <ul class="framework-list">
-        <li class="framework-item">
-          <p class="framework-number">01</p>
-          <h3 class="framework-title">Territory Management</h3>
-          <p class="body-copy">Before anything else, you need to know what your territory can realistically carry. How many accounts can you physically visit at the right frequency given the time you have? Most salespeople have never done this calculation. Once you do, it changes everything that follows — because you're working from real numbers rather than assumption.</p>
-        </li>
-        <li class="framework-item">
-          <p class="framework-number">02</p>
-          <h3 class="framework-title">Account Classification</h3>
-          <p class="body-copy">This is where the data does the work. You rank every account by what it's generating and let the numbers decide which accounts are driving your business — and which ones are just filling the diary. No sentiment. No history. No relationship bias. Just data. The accounts that belong above the line will be above the line. The ones that don't, won't — regardless of how long you've been visiting them.</p>
-        </li>
-        <li class="framework-item">
-          <p class="framework-number">03</p>
-          <h3 class="framework-title">Account Planning</h3>
-          <p class="body-copy">Once you know which accounts matter, you invest your planning time accordingly. Structured sales plans with clear commercial goals and measurable outcomes. You stop planning for everyone and start planning properly for the accounts that have earned it — which means the quality of your thinking goes up significantly.</p>
-        </li>
-        <li class="framework-item">
-          <p class="framework-number">04</p>
-          <h3 class="framework-title">Opportunity Management</h3>
-          <p class="body-copy">For every account, you apply a logical and systematic process that helps you see where the real opportunities are — and how to make sure you are getting the most from them. This is how you stop wasting time on deals that aren't going to close and start concentrating your effort where it will actually land.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section data-section="whats-included">
-      <p class="eyebrow">EVERYTHING INCLUDED</p>
-      <h3 class="included-heading">The 90-Day Account Plan — four-part on-demand video programme</h3>
-      <ul class="bullet-list">
-        <li>Part 1 — Territory Management: calculate your real selling capacity and understand exactly how many accounts your territory can carry at the right call frequency</li>
-        <li>Part 2 — Account Classification: run the analysis, identify your accounts that are going places, and make data-led decisions about where your visiting time goes</li>
-        <li>Part 3 — Call Management: a structure you apply to your accounts to ensure you are giving yourself the best chance of success. This is a key part of the 90-Day Account Plan, and it will change the way you think about B2B selling forever.</li>
-        <li>Part 4 — Opportunity Management: most salespeople hold on to opportunities in their accounts that are never going to close for far too long. This section gives you a structured way to tell what's real and what isn't. Once you know the difference you'll know exactly where to focus your energy and which opportunities to walk away from.</li>
-      </ul>
-      <h3 class="included-heading">Six working templates — yours to keep and use immediately</h3>
-      <ul class="bullet-list">
-        <li>Account Ranking Spreadsheet — shows you exactly where your revenue is coming from — and which accounts are taking your time without earning it</li>
-        <li>Call Frequency Calculator — takes the guesswork out of territory planning — shows you exactly how many accounts you can realistically manage at the right visit frequency</li>
-        <li>Account Sales Plan — gives your most important accounts a clear commercial direction — so every visit has a purpose and nothing gets left to chance</li>
-        <li>Customer Opportunity Sheet — structures every call before you walk in and captures everything you need immediately afterwards — so nothing important gets forgotten and every follow-up lands on time</li>
-        <li>Prospect Management Tracker — keeps your new business activity disciplined and focused — so prospecting never gets crowded out by the day-to-day demands of your existing accounts</li>
-        <li>Opportunity Management Worksheet — applied to every live opportunity in your pipeline — shows you which deals are genuinely worth your time and which ones you should walk away from</li>
-      </ul>
-      <h3 class="included-heading">Bonus — "Is This Right for Me?" Diagnostic Checklist</h3>
-      <p class="body-copy">Not sure whether your problem is a territory problem or something else? This checklist helps you identify exactly what's driving the gap between your effort and your results — before you start Part 1. If the 90-Day Account Plan is the right framework for your situation, you'll know within ten minutes of working through it.</p>
-    </section>
-
-    <section data-section="right-for-you">
-      <p class="eyebrow">IS THIS RIGHT FOR YOU?</p>
-      <div class="two-columns">
-        <div class="column">
-          <h3>THIS IS FOR YOU IF:</h3>
-          <ul class="bullet-list">
-            <li>You're a B2B field salesperson managing a territory with an established account base</li>
-            <li>You're working hard but the effort isn't translating into the results it should</li>
-            <li>You want a structured framework you can apply immediately — not a course you'll never finish</li>
-            <li>You're willing to look honestly at where your time is going and act on what you find</li>
-            <li>You have genuine control over how your selling time is allocated</li>
-          </ul>
-        </div>
-        <div class="column">
-          <h3>THIS IS NOT FOR YOU IF:</h3>
-          <ul class="bullet-list">
-            <li>You're looking for sales scripts, objection handling or closing techniques — this doesn't cover that</li>
-            <li>You're in a transactional or inbound role with no territory to manage</li>
-            <li>You're not prepared to look at your account base with fresh eyes and make changes based on what you find</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section data-section="urgency">
-      <p class="eyebrow">THE COST OF STAYING WHERE YOU ARE</p>
-      <p class="body-copy">There's no deadline on this page. No artificial countdown. No seats running out.</p>
-      <p class="body-copy">But there is a cost to waiting — and it's worth being clear about what it is.</p>
-      <p class="body-copy">Every week you spend visiting the wrong accounts is a week you're not visiting the right ones. Every meeting that goes into a low value account is a meeting that didn't go into a top-tier prospect. Every opportunity you chase that was never going anywhere is time you didn't spend on one that would have closed.</p>
-      <p class="body-copy">That cost compounds quietly. It doesn't feel urgent from the inside. But it's real, and it accumulates.</p>
-      <p class="body-copy">The framework takes 90 days to work through properly. The sooner you start, the sooner the numbers start to reflect the work you're already putting in.</p>
-    </section>
-
-    <section data-section="pre-cta-testimonial">
-      <div class="testimonial-block">
-        <p class="testimonial-quote">"I've done a lot of sales training over the years and most of it disappears within a fortnight. This one stuck because it's built around your actual numbers — your accounts, your calling capacity, your territory. There's nowhere to hide, which is exactly what you need."</p>
-        <p class="testimonial-attribution">Dave Connolly — Area Manager, Industrial Supplies</p>
-      </div>
-    </section>
-
-    <section data-section="primary-cta">
-      <div class="cta-panel">
-        <div class="cta-panel-inner">
-          <h1>Get the 90-Day Account Plan</h1>
-          <p class="price-display">£397</p>
-          <p class="lead">Four-part on-demand video programme. Six working templates. One framework that fixes the actual problem.</p>
-          <!-- TODO: update href to Payhip product link before going live -->
-          <a class="button" href="PAYHIP_LINK_HERE">Get the 90-Day Account Plan — £397</a>
-        </div>
-      </div>
-    </section>
-
-    <section data-section="guarantee">
-      <p class="eyebrow">THE GUARANTEE</p>
-      <p class="body-copy">Work through Part 1 within 30 days of purchase. If you don't think it's worth your time, I'll refund you in full. I may ask for some brief feedback — not as a condition of the refund, but because understanding where it fell short helps me make it better.</p>
-    </section>
-
-    <section data-section="faq">
-      <p class="eyebrow">QUESTIONS</p>
-      <ul class="faq-list">
-        <li>
-          <h3 class="faq-question">Will this work for my industry?</h3>
-          <p class="faq-answer">The framework applies across B2B field sales — not to a specific sector. If you're managing a territory with multiple accounts, the methodology works. The figures in the worked examples are illustrative. You substitute your own numbers throughout.</p>
-        </li>
-        <li>
-          <h3 class="faq-question">How long does it take?</h3>
-          <p class="faq-answer">The four parts are designed to be worked through over 90 days — roughly one section every three weeks, giving you time to apply each discipline before moving to the next. You can move faster. Most people find the pacing works well.</p>
-        </li>
-        <li>
-          <h3 class="faq-question">What if my company sets my call frequency?</h3>
-          <p class="faq-answer">Your company's call cycle directive determines how often accounts get visited. The framework works within whatever directive you're given. You substitute your numbers, not ours.</p>
-        </li>
-        <li>
-          <h3 class="faq-question">I already have a good feel for which accounts matter. Is this still relevant?</h3>
-          <p class="faq-answer">Yes. The framework will either validate what you already know or show you something your instinct missed. Either outcome is useful. Most salespeople find at least one surprise when they run the data properly for the first time.</p>
-        </li>
-        <li>
-          <h3 class="faq-question">What makes this different from sales training I've done before?</h3>
-          <p class="faq-answer">Most sales training focuses on technique — how to sell better. This focuses on where you sell — which accounts get your time and why. Those are different problems. This framework addresses the one most training ignores.</p>
-        </li>
-        <li>
-          <h3 class="faq-question">What if I'm still quite new to field sales?</h3>
-          <p class="faq-answer">This is the training I wish I'd had when I first went out on the road. In many ways you're in a strong position because you don't have years of accumulated habits that don't work in practice. The 90-Day Account Plan works for everyone, as long as you put in the work.</p>
-        </li>
-        <li>
-          <h3 class="faq-question">What if I'm not satisfied?</h3>
-          <p class="faq-answer">Work through Part 1 within 30 days of purchase. If you don't think it's worth your time, I'll refund you in full. See the guarantee section above.</p>
-        </li>
-      </ul>
-    </section>
-
-    <section data-section="closing-argument">
-      <p class="eyebrow">ONE LAST THING</p>
-      <p class="body-copy">You already know something isn't adding up. The effort is there. The days are full. But the results aren't matching what you're putting in.</p>
-      <p class="body-copy">In most cases, that gap isn't a selling problem. It's a territory problem. And territory problems don't get fixed by working harder or selling better. They get fixed by making better decisions about where the time goes.</p>
-      <p class="body-copy">The 90-Day Account Plan gives you the framework to do exactly that. It's structured, practical, and built on a methodology that has produced real results in real territories.</p>
-      <p class="body-copy">You can carry on as you are and hope the numbers improve. Or you can spend 90 days working through a framework that's designed to fix the actual problem.</p>
-      <!-- TODO: update href to Payhip product link before going live -->
-      <a class="button button--inline" href="PAYHIP_LINK_HERE">Get the 90-Day Account Plan — £397</a>
-    </section>
+    </div>
   </main>
 
   <footer>
-    <div class="wordmark">
-      <p class="wordmark__title">MARK YOUNG</p>
-      <hr class="wordmark__rule" />
-      <p class="wordmark__subtitle">SALES</p>
-    </div>
-    <p class="footer-note">© Mark Young Sales</p>
+    &copy; 2026 Mark Young Sales. All rights reserved.
   </footer>
+
 </body>
 </html>
