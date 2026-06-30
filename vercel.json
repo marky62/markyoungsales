@@ -1,3 +1,15 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/free/v1", "destination": "https://mark-young-sales.kit.com/94eaa538e7?utm_source=youtube&utm_medium=description&utm_campaign=off-balance", "permanent": false },
+    { "source": "/free/v2", "destination": "https://mark-young-sales.kit.com/94eaa538e7?utm_source=youtube&utm_medium=description&utm_campaign=time-wasters", "permanent": false },
+    { "source": "/free/v3", "destination": "https://mark-young-sales.kit.com/94eaa538e7?utm_source=youtube&utm_medium=description&utm_campaign=stop-at", "permanent": false },
+    { "source": "/free/v4", "destination": "https://mark-young-sales.kit.com/94eaa538e7?utm_source=youtube&utm_medium=description&utm_campaign=signal-trap", "permanent": false },
+    { "source": "/free/v5", "destination": "https://mark-young-sales.kit.com/94eaa538e7?utm_source=youtube&utm_medium=description&utm_campaign=proof", "permanent": false },
+    { "source": "/wm/v1", "destination": "https://markyoungsales.co.uk/work-with-me.html?utm_source=youtube&utm_medium=description&utm_campaign=off-balance", "permanent": false },
+    { "source": "/wm/v2", "destination": "https://markyoungsales.co.uk/work-with-me.html?utm_source=youtube&utm_medium=description&utm_campaign=time-wasters", "permanent": false },
+    { "source": "/wm/v3", "destination": "https://markyoungsales.co.uk/work-with-me.html?utm_source=youtube&utm_medium=description&utm_campaign=stop-at", "permanent": false },
+    { "source": "/wm/v4", "destination": "https://markyoungsales.co.uk/work-with-me.html?utm_source=youtube&utm_medium=description&utm_campaign=signal-trap", "permanent": false },
+    { "source": "/wm/v5", "destination": "https://markyoungsales.co.uk/work-with-me.html?utm_source=youtube&utm_medium=description&utm_campaign=proof", "permanent": false }
+  ]
 }
