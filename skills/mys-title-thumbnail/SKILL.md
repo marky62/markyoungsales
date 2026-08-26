@@ -28,8 +28,8 @@ it should. They're not looking for motivation. They're looking for clarity.
 **Tone:** Calm, measured, authoritative. Head of Sales energy — not YouTube
 performance. The packaging must match this.  
 **Core thesis:** Most sales problems are account and territory problems. The
-channel exists to name that problem and, eventually, provide the solution via
-the 90-Day Account Plan.
+channel exists to name that problem, teach the method openly, and convert the
+right people into the cohort programme.
 
 ---
 
@@ -76,6 +76,37 @@ Do not proceed to title generation until these three questions are answered.
 
 Generate a minimum of 8 title candidates. Don't filter during generation —
 write them out first, evaluate after.
+
+## Two Kinds of Title — Decide Which Before You Write
+
+Every video is either a **pull video** or a **push video**, and they follow
+different title rules. Establish which one this is before generating
+candidates.
+
+**Pull videos** are found through search. Someone types their problem into
+YouTube and your video is the answer. The title's job is to match the words
+they actually typed — not to intrigue. "How do I manage an underperforming
+account" is a pull title. It looks plainer than the locked five, and that's
+correct: to the person who just typed those words, the plainest title on the
+page is the most interesting one, because it's the one that matched.
+
+Pull videos matter disproportionately on a channel without much history.
+A search view is the one view YouTube never has to guess at — the viewer did
+the targeting. They're the front door while the channel is small.
+
+**Push videos** are served to people who weren't looking. The homepage
+decides whether they click, so curiosity and a strong BENS element do the
+work. The locked five are all push titles.
+
+**Rule exemption for pull videos:** the requirements to be intriguing, to
+carry a strong BENS element, and to reframe do not apply. Clarity and
+keyword match beat cleverness. The under-50-characters rule, the no-colons
+rule, the no-"I" rule and the plain-English rule all still apply.
+
+Aim for a mix. A channel of nothing but pull titles never gets pushed to a
+wider audience; a channel of nothing but push titles is invisible to search.
+
+---
 
 ### Title Rules (Non-Negotiable)
 
@@ -230,6 +261,18 @@ it based on views alone.
   Repackaging won't fix it.
 - It's been less than 7 days — insufficient data.
 
+**Retitling a push video for search.** When a push video has stopped being
+served — views have flattened and Browse Features has dried up — it isn't
+finished. Give it a second life by retitling it for search: find the phrase
+someone with that problem would actually type, and rewrite the title to
+match it. The video then sits on the shelf and gets found for years rather
+than dying in a fortnight.
+
+This is a different move from repackaging a failed video. The video didn't
+fail — it did its job and the push ended. Check the transcript still matches
+the new title before changing it; if the video doesn't genuinely answer the
+search, don't claim it does.
+
 **Repackaging process:**
 Run the new title through the full Step 1–5 process above. Don't rush
 a repackage. A bad second title is worse than leaving the first one.
@@ -244,7 +287,7 @@ a repackage. A bad second title is worse than leaving the first one.
 - Never present more than 3 title options at a time — more choices don't
   help, they delay the decision.
 - Always give a clear recommendation — don't present options without a view.
-- The £247 Call Package is never mentioned in any public-facing copy. Do not
-  reference it in titles, thumbnails, or descriptions.
+- The retired £397 VOD (90-Day Account Plan) is never referenced in titles,
+  thumbnails, or descriptions. It is no longer sold.
 - Dave Jeltema's feedback principle: titles should feel like they're speaking
   directly to one specific person's problem, not broadcasting to a crowd.

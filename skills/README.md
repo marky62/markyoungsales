@@ -45,13 +45,18 @@ Notion save protocol.
 ---
 
 ### `mys-vod-scripting.skill`
-**When to use:** Writing or reviewing a VOD module script, adding a new
-section to an existing part, writing supplemental material explanations,
-or extending the 90-Day Account Plan course content.
+**When to use:** Writing or reviewing cohort session material, adding a new
+module, writing supplemental material explanations, or extending the
+programme. Also covers the recorded lower-priced course made from the
+cohort sessions.
 
-Contains: The four-part course structure, Sarah Mitchell's fixed figures,
-section structure guidance, tone reference from locked scripts,
-supplemental download reference table, and Notion page IDs for all four parts.
+Contains: The delivery model (six weeks live, ten places, £997), the
+four-part course structure, Sarah Mitchell's fixed figures, section
+structure guidance, tone reference from locked scripts, supplemental
+download reference table, and Notion page IDs for all four parts.
+
+**Note:** the folder name still says `vod` for compatibility with installed
+copies. The £397 self-serve VOD it was named after has been retired.
 
 ---
 
@@ -63,6 +68,19 @@ for a different offer, or getting a script ready for filming.
 Contains: The domino statement, the three false beliefs, the locked
 12-step structure, the Ali's Bins principle, writing rules, filming notes,
 and version control protocol.
+
+---
+
+## Current Offer Stack
+
+| Offer | Price |
+|---|---|
+| Cohort programme — 6 weeks live, 10 places | £997 |
+| Coaching call — 45 minutes | £197 |
+| Recorded course (from cohort recordings) | Not built yet |
+
+The £397 90-Day Account Plan VOD and the £247 Call Package are both retired.
+See `DECISIONS.md` in the repository root for the full record.
 
 ---
 

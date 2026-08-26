@@ -28,8 +28,9 @@ but frustrated. They're not looking for motivation — they're looking for
 clarity about why their effort isn't converting.
 
 **Core thesis (locked):** Most sales problems are account and territory
-problems, not selling problems. The channel exists to name that, build
-the audience, and convert the right people into the 90-Day Account Plan.
+problems, not selling problems. The channel exists to name that, teach the
+method openly, build the audience, and convert the right people into the
+cohort programme.
 
 **Delivery style:** Calm, measured, authoritative. Head of Sales — not
 YouTube performance. Ideas must suit this register. No "growth hacks",
@@ -117,13 +118,15 @@ Reframe examples:
 - "Strong relationships = strong accounts" → not necessarily. Relationship
   bias is one of the biggest blockers to rational territory management.
 
-### Source 3 — The VOD Bridge
+### Source 3 — The Method Bridge
 
-Every paid tool in the 90-Day Account Plan has a free video that creates
-the problem-awareness for it. The rule: name the problem, don't give the
-tool. Map existing VOD content to potential bridge videos:
+Every part of the methodology has a free video that teaches it and creates
+the demand for applying it properly. Since the giveaway rule changed, the
+old instruction here — name the problem, don't give the tool — no longer
+applies. Teach the tool. What the video can't do is apply it to the
+viewer's own territory, and that's what the cohort is for.
 
-| VOD Content | Potential Bridge Video |
+| Methodology Content | Potential Bridge Video |
 |---|---|
 | Territory capacity calculation | The number of accounts thing (idea 10 above) |
 | Account classification (A/B/C) | The 80/20 video (idea 2 above) |
@@ -135,7 +138,17 @@ tool. Map existing VOD content to potential bridge videos:
 New bridge video ideas follow the same pattern: identify a VOD tool or
 concept, then work backwards to the viewer's experience of not having it.
 
-### Source 4 — Pattern Spotting from Performance
+### Source 4 — The Comment Section
+
+Once videos are live, the comments are the cheapest topic source there is:
+real questions from real viewers, in the words they'd actually type into a
+search bar. A question that comes up twice is a video. A question that comes
+up in the words a viewer chose is a pull title already written.
+
+Read them for language as much as for content — the phrase they use to
+describe the problem is usually better than the phrase the industry uses.
+
+### Source 5 — Pattern Spotting from Performance
 
 Once videos are live and accumulating data, the strongest future ideas come
 from what's already working. Use the 7-day and 28-day performance reviews
@@ -147,6 +160,33 @@ from what's already working. Use the 7-day and 28-day performance reviews
 
 Ideas that extend the strongest performers in a similar style are the
 highest-probability bets.
+
+---
+
+## Buyer-Journey Stage — Tag Every Idea
+
+Every idea gets tagged with the stage of the buyer's journey it meets.
+This exists to stop the calendar drifting to one end.
+
+**Problem-aware** — they know something's wrong, they don't know what.
+The gym owner searching "why is my gym losing members". This is the biggest
+crowd by far and where most MYS ideas naturally sit.
+
+**Solution-aware** — they know fixes exist and are weighing the options.
+"Do I need a territory framework or just better CRM discipline?"
+
+**Decision-aware** — they want the thing and are choosing who to get it
+from. "What actually happens on a coaching call." Small crowd, closest to
+buying, and the channel currently has nothing here at all.
+
+**Target mix:** mostly problem-aware, with solution-aware and decision-aware
+represented rather than absent. **At least one decision-aware video should be
+commissioned in the near term** — right now the path from a video to the
+waitlist or the £197 call is a single verbal CTA and nothing else prepares
+anyone for it.
+
+Record the stage in the brief. If the last six ideas are all problem-aware,
+the next one shouldn't be.
 
 ---
 
@@ -163,12 +203,12 @@ interesting?**
 your numbers aren't moving" is a felt problem. The viewer must recognise
 themselves in the idea, not just find the subject matter relevant.
 
-**2. Can it be executed without giving away paid methodology?**
-The goal is problem-awareness, not solution delivery. If answering the
-video's core question requires handing over the Account Classification
-system, the Five Filters, or the specific tools from the VOD — the idea
-needs reframing. Name the problem. Gesture at the category of solution.
-Don't give the steps.
+**2. Can the video actually deliver on it in full?**
+The goal is a complete, useful answer — not a teaser. If the idea can only
+be covered by holding something back, it's the wrong shape. Account
+classification, the Five Filters, the capacity calculation: teach them
+properly. The test is whether a viewer who never buys anything would still
+say the video was worth their time.
 
 **3. Does it suit Mark's delivery style?**
 Calm, evidence-led, measured. Ideas that require high energy, comedy,
@@ -197,10 +237,14 @@ before handing off to the mys-title-thumbnail skill.
 
 ```
 IDEA: [One-sentence description of the core idea]
+STAGE: [Problem-aware / Solution-aware / Decision-aware]
+TYPE: [Pull (search-led) / Push (curiosity-led)]
 VIEWER STATE: [What the viewer currently believes or feels when they click]
 REFRAME: [What they'll believe or understand differently by the end]
-WORKED EXAMPLE ANGLE: [If Sarah Mitchell applies, how? If not, what scenario?]
-BRIDGE TO OFFER: [How does this naturally lead toward the 90-Day Account Plan
+NAMED CONCEPT: [Which signature concept does this video establish or reuse?]
+WORKED EXAMPLE ANGLE: [Which real territory or client situation carries this?
+Sarah Mitchell is for the paid room, not for YouTube]
+BRIDGE TO OFFER: [How does this lead toward the cohort or the £197 call
 without selling it directly?]
 READY FOR TITLE WORK: Yes / No (and why, if No)
 ```
@@ -220,10 +264,12 @@ The conversion follows.
 beats three rushed ones. Don't generate ideas faster than they can be
 scripted and filmed to standard.
 
-**Bridge content, not tutorial content.** The 90-Day Account Plan is the
-methodology. YouTube content builds the case that the methodology is needed.
-The moment a video starts delivering the methodology for free, it's
-competing with the product rather than feeding it.
+**Teach it properly.** The methodology is given away on YouTube. What the
+channel sells is application — the cohort, where Mark works through one
+person's actual territory with them, and the £197 call. A video that teaches
+the method in full doesn't compete with that offer, it qualifies people for
+it. The viewer who understands the method and realises they won't do it
+alone is exactly the right buyer.
 
 **No sacred ideas.** If an idea from the bank isn't working when developed,
 drop it. The list exists to give options, not to obligate execution.

@@ -24,16 +24,22 @@ inspires and removes objections, it converts.
 
 ## The Current VSL — Status
 
-**File:** VSL Script V4 — Revised May 2026  
-**Offer promoted:** £397 — 90-Day Account Plan (primary).
-The Mentorship Programme waitlist mentioned in one line only.  
-**Status:** Re-record required. Three changes from V3: account numbers
-corrected to 750, Secret 3 expanded, Final Choice rewritten.  
-**Notion page:** `33e7d6446abd815b9c43c7c3dff0c5cd`
+**V4 is archived, not live.** It sold the £397 90-Day Account Plan VOD,
+which has been retired. Do not film it, quote from it, or reuse its offer
+and final choice sections. Its Notion page (`33e7d6446abd815b9c43c7c3dff0c5cd`)
+stays as a record — don't overwrite it.
 
-Do not alter the locked V4 script without Mark's explicit instruction.
-If a new version is needed, create a new draft and label it V5. Never
-overwrite the locked version.
+**V5 is required, and it's a rewrite rather than a re-record.** The buying
+decision has changed shape: five times the price, a start date, a limited
+room, and a selection step. Sections 1–6 of V4 are largely reusable. Sections
+7 and 8 are not.
+
+**Before writing V5, these need Mark's confirmation:**
+- False Belief 3 for the cohort buyer (the provisional version below is a
+  placeholder, not a locked decision)
+- Cohort dates, and whether entry is by application or straight purchase
+- Whether the VSL sits on the new landing page, is delivered by email to
+  the waitlist, or both
 
 ---
 
@@ -65,10 +71,22 @@ My patch is tough. There isn't much more I can do."
 "I'm putting the hours in. Full diary, hitting my activity targets. If
 working harder hasn't fixed it, nothing will."
 
-**False Belief 3 — Vehicle ("Account planning sounds complicated")**
-"I've tried planning before. It's a spreadsheet you update in January
-and ignore until the next review. I don't have time for something that
-won't make a real difference."
+**False Belief 3 — Vehicle (PROVISIONAL — needs Mark's confirmation)**
+The old version of this belief was written for a self-serve course: "account
+planning sounds complicated, I've tried it before, it's a spreadsheet you
+ignore until the next review." That objection still exists, but it's no
+longer the one blocking the sale.
+
+For a £997 cohort the vehicle objection is more likely to be some mix of:
+"I've already watched him explain all of this for free — what am I actually
+paying for?", "six weeks is a lot of time I don't have", and "a group
+programme won't deal with my territory specifically."
+
+The first of those is new, and it's created directly by the decision to give
+the methodology away. The VSL has to answer it head on: you know the method,
+you haven't done it, and you won't do it alone. That gap is the product.
+
+Confirm the final wording with Mark before writing V5.
 
 Every section of the VSL is either building toward dismantling one of
 these, or it's between sections and shouldn't be there.
@@ -154,21 +172,38 @@ of the three. The numbers must be accurate: 750 accounts, roughly half,
 60% more business.
 
 ### Step 7 — The Offer
-Introduces the 90-Day Account Plan by name. States what it is (four-part
-on-demand programme), how it works (buyer's own numbers, own territory,
-own pace), and what's included (six working templates — named specifically).
-States the price: £397.
+Introduces the cohort programme. States what it is (six weeks, delivered
+live, ten people maximum), how it works (Mark teaching the method against
+the members' own territories, with the working templates), and what makes
+it different from the free videos (the room, the pacing, and Mark's eyes on
+your actual numbers).
 
-Mentions The Mentorship Programme waitlist in one line only. No more.
+States the price: £997.
+
+Entry is via the waitlist while dates are being set. Say that plainly rather
+than implying places are open when they aren't.
+
+The £397 VOD is retired. It is never mentioned, compared against, or offered
+as a cheaper alternative.
 
 ### Step 8 — Final Choice
 Two paths. No pressure, no false urgency. Just the honest choice:
-carry on as you are, or spend time going through this properly.
+carry on as you are, or spend six weeks going through this properly with
+someone who's done it.
+
+**On scarcity — the rule has changed.** Ten places is a real constraint, not
+a marketing device, and stating it plainly is honest. The old blanket ban on
+scarcity was written when the offer was an unlimited digital product. It
+now reads: state the real limit, never invent one. No countdown timers, no
+"only three left" unless three is the true number, no fabricated deadlines.
+The genuine constraint is the strongest thing this section has — don't
+undersell it by leaving it out.
 
 **The Final Choice must not:**
-- Create artificial scarcity
+- Invent scarcity, urgency, or deadlines that aren't real
 - Use high-pressure language
-- Promise transformation — it promises clarity and a framework
+- Promise transformation — it promises clarity, a framework, and six weeks
+  of applying it to your own territory
 
 ---
 
@@ -190,24 +225,39 @@ It does not deliver the method.
 halved from 750) are real and powerful. They don't need embellishment.
 Every claim in the VSL must be one Mark can stand behind.
 
+**No borrowed statistics.** Do not use the widely circulated marketing
+figures — the "7% of communication is words" claim (a misreading of
+Mehrabian), "it takes seven hours to build trust", "eleven touchpoints
+before a sale". They're soft at best and wrong at worst. A channel whose
+whole position is evidence-led precision cannot afford to repeat them.
+Mark's own numbers are stronger and they're real.
+
 **Mark's voice, not a copywriter's voice.** Read every line aloud.
 If it sounds like it was written by someone who doesn't work in B2B
 field sales, rewrite it until it doesn't.
 
 ---
 
-## The "Ali's Bins" Principle
+## The "Ali's Bins" Principle — Revised
 
-This principle is locked for MYS copy. It applies directly to VSL writing.
+The principle survives, but the reason behind it has changed.
 
-Secrets 1 and 2 build intrigue and land the problem — they do not explain
-the solution or name the methodology. Secret 3 delivers the result (the
-case study) but not the process. The process is what the buyer pays for.
+It used to mean: don't explain the framework, because the explanation is
+what the buyer pays for. That's no longer true. The methodology is taught
+in full on YouTube, for free, deliberately.
 
-If at any point a VSL draft starts explaining how the framework works —
-the specific classification system, the Five Filters, the Account Sales
-Plan structure — it has broken this principle. Stop. Pull back to the
-result and cut the explanation.
+It now means: **don't teach in a sales video, because teaching kills
+conversion.** A VSL that explains the classification system makes the work
+sound hard and long, and the viewer leaves feeling tired rather than
+motivated. The same content that builds authority on YouTube destroys a
+sales page.
+
+So the mechanic is unchanged — Secrets 1 and 2 land the problem, Secret 3
+delivers the result — but if someone asks why, the answer is "because it
+converts", not "because it's secret". And if a viewer says they already
+know the method from the videos, that's not a problem to be dodged. It's
+the strongest thing you have: they know it, they haven't done it, and
+that's exactly what the cohort is for.
 
 ---
 

@@ -1,21 +1,59 @@
 ---
 name: mys-vod-scripting
 description: >
-  Write, review, edit, and lock VOD module scripts for the 90-Day Account Plan
-  on-demand course. Use this skill whenever the task involves scripting a VOD
-  section, reviewing or editing an existing VOD script, adding a new module,
-  writing supplemental material explanations, or extending the course content.
-  Also use when Mark asks about VOD structure, course tone, or how a new topic
-  should be introduced within the programme. Always use this skill — do not
-  attempt VOD scripting without it.
+  Write, review, edit, and lock teaching material for the Mark Young Sales
+  cohort programme — the six-week live course built from the 90-Day Account
+  Plan methodology — and for the recorded lower-priced course made from those
+  sessions. Use this skill whenever the task involves scripting or outlining a
+  cohort session, reviewing existing course material, adding a new module,
+  writing supplemental material explanations, or extending the programme.
+  Also use when Mark asks about course structure, teaching tone, or how a new
+  topic should be introduced within the programme. Always use this skill — do
+  not attempt cohort or course scripting without it.
 ---
 
-# MYS VOD Scripting Skill
+# MYS Cohort & Course Scripting Skill
 
-VOD scripts for the 90-Day Account Plan have a completely different job from
-YouTube scripts. YouTube earns attention. The VOD delivers on the promise that
-attention made. The buyer has already paid. They don't need to be hooked —
-they need to be guided. Clearly, practically, and without wasting their time.
+Teaching material for the cohort has a completely different job from YouTube
+scripts. YouTube earns attention and now teaches the method openly. The cohort
+delivers application — the same methodology, run against the members' own
+territories, at a pace that makes them actually do it. The buyer has already
+paid. They don't need to be hooked. They need to be guided, clearly and
+practically, without wasting their time.
+
+---
+
+## Delivery Model — Changed
+
+The £397 self-serve VOD has been retired. The methodology is now delivered as
+**six weeks of live sessions to a cohort of ten people maximum, at £997 a
+place.** Entry is via the waitlist while dates are being set.
+
+Every live session is recorded. Those recordings become the raw material for
+a **lower-priced self-serve course** later. That has two consequences for how
+material is written:
+
+1. **Write for the room, not the recording.** The live session is the product
+   people paid for. Interaction, questions, and working through a member's
+   real numbers are the reason it's worth £997 — don't suppress them to keep
+   the recording tidy.
+2. **But assume the recording will be watched by a stranger.** Avoid anything
+   that only makes sense to people who were there. When answering a member's
+   question, restate the question before answering it.
+
+**Live delivery changes the format of the material itself.** A pre-recorded
+module was a word-for-word teleprompter script. A live session can't be, and
+shouldn't be — reading to a live room is obvious and it kills the thing the
+cohort is paying for. What gets written instead is a **run sheet**: the
+sections in order, the exact wording only for the parts that must be precise
+(definitions, calculations, the numbers), and marked slots for questions and
+live application.
+
+**The four-part structure across six weeks — PROVISIONAL.** Mark hasn't
+confirmed the mapping yet. The working assumption is one part per week for
+weeks 1–4, with weeks 5 and 6 given over to application, review of members'
+own plans, and the questions that only surface once people have tried it.
+Confirm before building session material.
 
 ---
 
@@ -74,6 +112,14 @@ build-ups designed to earn attention. The buyer is already here. Speak
 to them like a practitioner briefing a peer, not a presenter performing
 for a camera.
 
+**Assume they've seen the free videos.** Since the methodology is taught
+openly on YouTube, a good proportion of the room will arrive already
+knowing the concepts. Don't teach as though it's new to them and don't
+apologise for repeating it. The session's value is in the application:
+their numbers, their accounts, their decisions, checked by someone who
+has done it. Where a concept has been covered on the channel, orient
+briefly and move to the application faster.
+
 **Methodical, not motivational.** The VOD is instructional. Its job is
 clarity and application, not inspiration. Mark's authority comes from the
 precision of the framework, not from enthusiasm about it.
@@ -110,9 +156,12 @@ it tells the buyer exactly what this section is about. No clever titles.
    principle is. Precise and unhurried.
 3. **Sarah's numbers applied.** Walk Sarah through the calculation or
    decision. Show the output. State what it means for her territory.
-4. **The buyer's application.** Direct the buyer to apply the same
-   process to their own numbers. Reference the relevant supplemental
-   download where applicable.
+   Sarah remains the calculation vehicle for the paid room — she makes
+   the arithmetic followable before anyone risks it on their own data.
+4. **The member's application.** Direct members to apply the same process
+   to their own numbers. Reference the relevant supplemental download.
+   In a live session this is a working slot, not an instruction — build
+   in the time for people to actually do it and bring back a number.
 5. **The uncomfortable implication (where relevant).** If this section
    surfaces something the buyer might resist — accounts that don't
    belong where they think they do, time going to the wrong places —
@@ -182,6 +231,7 @@ when to use it. Don't make them guess.
 - Teach beyond what's in the framework. The 90-Day Account Plan is a
   defined methodology. Don't expand it with additional models, borrowed
   frameworks, or tangential ideas that weren't part of the original design.
+- Reference the retired £397 VOD, or price the cohort against it.
 - Use YouTube structure. No hooks, no pattern interrupts, no "stay with
   me because..." The buyer has already stayed. Just deliver.
 - Introduce new characters. Sarah Mitchell is the only worked example.
@@ -197,7 +247,8 @@ when to use it. Don't make them guess.
 ## Saving to Notion
 
 Once a script section is approved by Mark, save it to the relevant Notion
-page immediately. The VOD script pages are:
+page immediately. The original VOD script pages remain the source of the
+teaching content and are the starting point for cohort session material:
 
 - Part 1: `3447d6446abd818dbf62d704472c642d`
 - Part 2: `3467d6446abd81e980d8e62bd902b340`
