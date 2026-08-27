@@ -48,6 +48,18 @@ Each sentence does one job.
 "Won't" not "will not". "Didn't" not "did not". The only exception is when
 the emphasis specifically requires the full form.
 
+**Never say "rep".** It's lazy and it's a little disrespectful about the people
+the audience manages. Use **area manager** when referring to a specific member
+of the team, **salesperson** or **field salesperson** when the reference is
+general, or **your people** when speaking to the manager about the team as a
+whole. Vary them so no one word gets worn out. This applies to every spoken
+word and every piece of written copy.
+
+The one exception is packaging built for search — a title or description may
+carry "sales rep" where that is genuinely the phrase people type. Voice rules
+govern what Mark says; search terms govern what gets found. Flag it when the
+two collide rather than deciding silently.
+
 **Conversational but authoritative.** This is a Head of Sales speaking from
 experience, not a YouTuber performing for the camera. No hype. No exclamation
 points used for energy. No rhetorical filler ("Now, here's the thing...").
@@ -513,6 +525,7 @@ Before presenting any draft to Mark:
 - [ ] The lead magnet mention sits immediately after brick one — not later,
       not at the end
 - [ ] No borrowed statistics (Mehrabian, seven hours, eleven touchpoints)
+- [ ] The word "rep" appears nowhere in the spoken script
 - [ ] The UTM-tagged link destination has been confirmed (waitlist,
       £197 call, or lead magnet)
 - [ ] The script sounds like Mark when read aloud — not a YouTuber,

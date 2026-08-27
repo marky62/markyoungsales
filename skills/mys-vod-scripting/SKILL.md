@@ -107,6 +107,18 @@ delivered to camera — every sentence needs to work when spoken aloud.
 "Won't" not "will not". "Didn't" not "did not". The only exception is when
 the emphasis specifically requires the full form.
 
+**Never say "rep".** It's lazy and it's a little disrespectful about the people
+the audience manages. Use **area manager** when referring to a specific member
+of the team, **salesperson** or **field salesperson** when the reference is
+general, or **your people** when speaking to the manager about the team as a
+whole. Vary them so no one word gets worn out. This applies to every spoken
+word and every piece of written copy.
+
+The one exception is packaging built for search — a title or description may
+carry "sales rep" where that is genuinely the phrase people type. Voice rules
+govern what Mark says; search terms govern what gets found. Flag it when the
+two collide rather than deciding silently.
+
 **No YouTube energy.** No hooks, no pattern interrupts, no rhetorical
 build-ups designed to earn attention. The buyer is already here. Speak
 to them like a practitioner briefing a peer, not a presenter performing

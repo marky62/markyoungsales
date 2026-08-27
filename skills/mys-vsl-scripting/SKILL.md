@@ -215,6 +215,18 @@ undersell it by leaving it out.
 "It's" not "it is". "Haven't" not "have not". "Aren't" not "are not".
 "Won't" not "will not". "Didn't" not "did not".
 
+**Never say "rep".** It's lazy and it's a little disrespectful about the people
+the audience manages. Use **area manager** when referring to a specific member
+of the team, **salesperson** or **field salesperson** when the reference is
+general, or **your people** when speaking to the manager about the team as a
+whole. Vary them so no one word gets worn out. This applies to every spoken
+word and every piece of written copy.
+
+The one exception is packaging built for search — a title or description may
+carry "sales rep" where that is genuinely the phrase people type. Voice rules
+govern what Mark says; search terms govern what gets found. Flag it when the
+two collide rather than deciding silently.
+
 **No teaching in the VSL.** The moment the script starts explaining how
 the methodology works in detail, it has crossed from inspiration to
 instruction. That's the VOD's job. The VSL names the problem, tells
