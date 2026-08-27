@@ -15,7 +15,7 @@ Where they differ, both are shown.
 |---|---|---|---|---|---|---|
 | 1 | The #1 Reason B2B Selling Feels Harder Than It Should | 24 Jun | 2:24 | 17 | 2 | Locked as "Why Selling Feels Harder Than It Should" |
 | 2 | Why Low-Effort Accounts Are Your Biggest Problem | 24 Jun | 2:20 | 9 | 3 | Locked as "These Accounts Are Silently Killing Your Revenue" |
-| 3 | You're Managing Too Many Accounts. Here's the Number | 24 Jun | 5:09 | 26 | 3 | |
+| 3 | How Many Accounts Can One Salesperson Manage? | 24 Jun | 5:09 | 26 | 3 | **Retitled for search 27 Aug** (was "You're Managing Too Many Accounts. Here's the Number"). Thumbnail STOP AT unchanged. |
 | 4 | Your Pipeline is Lying to You. Here's the 5-Step Fix | 24 Jun | 4:52 | 16 | 3 | Notion script page titled "Most of Your Pipeline Isn't Real" |
 | 5 | 60% More Business. Half The Accounts. | 24 Jun | 3:04 | 13 | 3 | End screen points to playlist, not next video |
 | 6 | Your Diary is Full but Your Territory isn't Working | 14 Jul | 9:30 | 44 | 4 | **Best performer.** Breakout 2.67 |
@@ -54,7 +54,8 @@ and it hasn't been followed up.
 **Zero comments on every video.** The comment-section protocol and comments as
 a topic source are both inert until that changes.
 
-**Every title is a push title.** Not one is written for search. This is the
+**Video 3 is now the only search entry point.** Every other title is a push
+title, written for curiosity rather than for what anyone types. This is the
 clearest confirmation of the pull-video gap — nine videos in and the channel
 has no search front door.
 

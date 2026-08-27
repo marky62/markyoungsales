@@ -260,6 +260,34 @@ Every piece of that is doing a job: it names the next problem so they realise
 they have it, it makes solving it feel urgent, and it makes the next step
 effortless. The video doesn't end, it continues inside the next one.
 
+### Split the handoff: spoken names the problem, end screen names the video
+
+Making videos one at a time means the ideal next video often doesn't exist
+yet, so the handoff ends up pointing backwards into the catalogue. Two things
+fix that.
+
+**First, remember who's watching.** A viewer arriving at video 12 hasn't seen
+videos 1 to 11. Pointing them at an older video isn't backwards to them, it's
+forwards — the catalogue is a shelf, not a series, and chronology only exists
+in Mark's head. Point at whichever video best serves the problem the viewer
+now has, whenever it was made.
+
+**Second, keep the spoken line and the pointer separate.** Name the *problem*
+out loud; let the end screen name the *video*. End screens can be changed at
+any time without re-filming or re-uploading, so when a better target is
+published later, swap the end screen and the handoff points forward with no
+pickup needed. Write the spoken line so it survives that swap — describe what
+the viewer needs next, not the title of a specific video.
+
+The exception is when the next video in the chain is already scripted and
+being filmed in the same session. Then name it directly; it'll exist by the
+time anyone watches.
+
+**Plan in chains, not singles.** Map a three or four video problem-chain
+before making any of them, so every video has a known destination even if it
+isn't built yet. Script two at a time and film them together — that puts one
+video permanently in hand, and costs a single week of delay to get there.
+
 ### The offer ask — roughly one video in four
 
 The old rule put an offer CTA on every video. That's now relaxed: **about one
