@@ -31,8 +31,8 @@ Do not start writing until all of the following are confirmed:
       (the default audience). If this script addresses an area manager
       instead, there's a stated reason for the exception.
 - [ ] What does that manager currently believe? What will the video challenge?
-- [ ] Any worked examples needed have been identified (Sarah Mitchell or
-      real-territory scenario)
+- [ ] Any worked examples needed have been identified — real territory
+      situations from Mark's own experience, not Sarah Mitchell
 
 ---
 
@@ -166,10 +166,7 @@ actually lives — and it's not where you'd expect."
 **Emotion half (Problem + Example):**
 The problem is what the viewer currently experiences or believes.
 The example makes it visible — a story, a scenario, or a concrete
-illustration that lets them picture it. Sarah Mitchell and her territory
-are the primary worked example vehicle for MYS. Use her when a specific
-number or situation would help — 170 accounts, £1.85M territory, 43 A
-accounts, 34 B accounts, 120 cycle slots per 8-week cycle.
+illustration that lets them picture it.
 
 **Sarah Mitchell is for the paid room, not for YouTube.** She's a
 calculation vehicle — she exists to make arithmetic followable for someone
