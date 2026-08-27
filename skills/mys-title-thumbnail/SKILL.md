@@ -22,9 +22,14 @@ audience, and positioning — not generic YouTube best practice.
 ## Channel Context
 
 **Channel:** Mark Young Sales  
-**Audience:** B2B field salespeople and area managers. They're experienced,
-time-poor, and quietly frustrated that their effort isn't producing the results
-it should. They're not looking for motivation. They're looking for clarity.  
+**Audience (changed):** A **Sales Manager running a team of B2B area
+managers**, each owning a territory. Regional and national sales managers and
+heads of sales are the same buyer. They're experienced, time-poor, and can't
+work out why their team's activity isn't producing the numbers.
+
+Area managers and field salespeople are the team being managed, not the
+viewer. They'll watch anyway. All nine published videos address the rep
+directly — titles from here on address the manager.  
 **Tone:** Calm, measured, authoritative. Head of Sales energy — not YouTube
 performance. The packaging must match this.  
 **Core thesis:** Most sales problems are account and territory problems. The
@@ -33,18 +38,27 @@ right people into the cohort programme.
 
 ---
 
-## The Five Locked Videos — Reference Only
+## Published Titles — Reference Only
 
-These are the locked titles and thumbnail text for the launch series.
-Study the pattern. Don't reuse the exact words.
+Nine videos are live. **See `VIDEOS.md` in the repository root for the full
+record** including performance, and check it before assuming what's published.
+The launch five below were locked under earlier titles; videos 1, 2 and 4 were
+retitled at or after publishing, and the live title is what counts.
 
-| Video | Title | Thumbnail Text |
+| Video | Live title | Thumbnail Text |
 |---|---|---|
-| 1 | Why Selling Feels Harder Than It Should | OFF BALANCE |
-| 2 | These Accounts Are Silently Killing Your Revenue | TIME WASTERS |
+| 1 | The #1 Reason B2B Selling Feels Harder Than It Should | OFF BALANCE |
+| 2 | Why Low-Effort Accounts Are Your Biggest Problem | TIME WASTERS |
 | 3 | You're Managing Too Many Accounts. Here's the Number | STOP AT (80 blurred) |
-| 4 | Your Pipeline Is Lying to You. Here's the 5-Step Fix | SIGNAL TRAP |
+| 4 | Your Pipeline is Lying to You. Here's the 5-Step Fix | SIGNAL TRAP |
 | 5 | 60% More Business. Half The Accounts. | PROOF |
+
+Videos 6–9 followed weekly at 8–10 minutes. Video 6 — "Your Diary is Full but
+Your Territory isn't Working" — is the channel's best performer by a clear
+margin and is the strongest available signal for what to make more of.
+
+**Every one of the nine is a push title.** None was written for search. That's
+the gap the pull-video rules below exist to close.
 
 **Patterns to carry forward:**
 - Titles name a specific problem the viewer already suspects is true

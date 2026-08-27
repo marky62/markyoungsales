@@ -22,10 +22,39 @@ start there — with what the viewer feels — not with what Mark knows.
 
 ## Channel Context
 
-**Audience:** B2B field salespeople and area managers. Typically 3–15 years
-experience. They manage territories with multiple accounts. They're competent
-but frustrated. They're not looking for motivation — they're looking for
-clarity about why their effort isn't converting.
+**Audience (changed — the channel now addresses Sales Managers):** The
+primary viewer is a **Sales Manager running a team of B2B area managers**,
+each of whom owns a territory. Regional and national sales managers and heads
+of sales are the same buyer under different titles. The subject the channel
+teaches is **how to run that team properly** — not how to sell.
+
+That means the videos are about a layer of the job nobody trains for: setting
+territory and coverage across several patches at once, holding a consistent
+account classification standard between area managers who all think their
+patch is different, coaching to a framework rather than to anecdote, and
+running reviews that produce decisions instead of updates.
+
+Area managers and field salespeople are **the team being managed, not the
+viewer.** They'll watch anyway — people watch content aimed at their boss,
+because it explains their own week — and that's fine. They aren't who the
+script speaks to.
+
+**The distinction that matters:** an area manager's problem is one territory.
+A sales manager's problem is the variance between six of them, and the fact
+that they can only see it through other people's reporting.
+
+**Why the shift:** the thesis is a manager's problem. A rep can reclassify
+their own accounts, but they can't change the coverage model, the call-rate
+target, or what the CRM demands of them. The person with the authority to act
+on what the channel teaches is one level up — and they're the one who can
+buy. Mark's own case study (an account base cut from 750 to roughly half,
+60% more business) is a management decision, not a rep's.
+
+**Where this is going:** the long-term destination is corporate clients and
+sales consultancy. The cohort and the £197 call are the near-term offers and
+also the credibility-builders for that. Ideas should be judged partly on
+whether they would impress someone who could one day hire Mark to work with
+a whole sales force.
 
 **Core thesis (locked):** Most sales problems are account and territory
 problems, not selling problems. The channel exists to name that, teach the
@@ -42,6 +71,13 @@ no clickbait concepts, no content that requires a high-energy presenter.
 
 Before generating new ideas, check what already exists. These ideas have
 been developed and approved. They should be explored before creating new ones.
+
+**Re-pointing note:** the ideas below were written for an area manager
+audience. Most convert by moving the "you" up one level, and several get
+stronger for it — "how your best accounts are probably under-developed"
+becomes "your team's A accounts are getting maintenance visits and you can't
+see it from a CRM report". Re-point before developing; don't assume the
+framing still fits.
 
 ### Developed Post-Launch Ideas (June 2026)
 
@@ -94,15 +130,36 @@ four sources:
 
 ### Source 1 — The Frustration List
 
-What do field salespeople say when they describe their week? Common language
-patterns that signal a video idea:
+What does a sales manager say when they describe their quarter? These are the
+primary source now:
+
+- "The activity's there, the numbers aren't" → measuring inputs, not coverage
+- "One area manager is carrying the region" → uneven territory design, not
+  uneven talent
+- "They all tell me their patch is different" → no shared classification
+  standard, so no comparability between territories
+- "I inherited this patch structure" → nobody has ever recalculated capacity
+- "We lost an account nobody saw coming" → false signals, no early warning,
+  and a manager who could only see it through someone else's optimism
+- "I can't see what's actually happening out there" → CRM as reporting theatre
+- "My best people are busy on the wrong accounts" → no classification discipline
+- "Every one-to-one is the same conversation" → no framework, so no decisions
+- "I can only manage what they choose to tell me" → the core visibility
+  problem of the job
+- "I can't hire my way out of this" → a structural problem being treated as
+  a headcount problem
+
+The rep-level frustrations still have value, because a manager recognises
+their own team in them:
 
 - "I'm calling on them but nothing's moving" → account inertia / false signals
 - "I don't have time for everything" → capacity / prioritisation
-- "My manager wants more calls" → activity metrics vs outcome metrics
 - "I know my patch well" → familiarity bias / complacency in A accounts
 - "The CRM takes up half my day" → admin burden, system misuse
 - "I've got a big pipeline but targets are tight" → pipeline quality vs quantity
+
+When using one of these, frame it as something the manager is watching happen
+to their team, not something happening to the viewer personally.
 
 Each frustration is a potential video. The idea is the underlying cause
 of that frustration — which the viewer doesn't know yet.
@@ -220,7 +277,19 @@ Check the five locked videos and the idea bank. Different angle, different
 problem, different viewer state. Variations on a theme are fine — direct
 repeats aren't.
 
-**5. Can it work as a standalone video with a clear payoff?**
+**5. Does the viewer have the authority to act on it?**
+The Sales Manager audience exists because they can actually change the thing
+the video names — coverage, classification standards, what gets reviewed. If
+the video's conclusion is something only a manager could authorise but the
+video speaks to the area manager, it produces frustration rather than clarity.
+Check who has to act, and address that person.
+
+Watch for the opposite failure too: a video that's really about running one
+territory well is an area manager's video. It can still be made, but it should
+be framed as what the Sales Manager needs their team to be doing, and why
+most of them aren't.
+
+**6. Can it work as a standalone video with a clear payoff?**
 The viewer should finish the video and feel they got something — a new way
 of seeing their situation, a specific question answered, a realisation they
 didn't have before. If the video can only land properly with prior context
@@ -237,6 +306,8 @@ before handing off to the mys-title-thumbnail skill.
 
 ```
 IDEA: [One-sentence description of the core idea]
+ADDRESSES: [Sales Manager (default) / Area Manager — and if the latter,
+why this one is an exception]
 STAGE: [Problem-aware / Solution-aware / Decision-aware]
 TYPE: [Pull (search-led) / Push (curiosity-led)]
 VIEWER STATE: [What the viewer currently believes or feels when they click]

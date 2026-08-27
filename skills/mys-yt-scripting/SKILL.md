@@ -27,8 +27,10 @@ Do not start writing until all of the following are confirmed:
 - [ ] Thumbnail text is locked
 - [ ] The single core idea is defined — one specific thing the viewer will
       think differently about by the end
-- [ ] The target viewer is clear — field salesperson, area manager, or both?
-      What do they currently believe? What will the video challenge?
+- [ ] The viewer is the **Sales Manager running a team of area managers**
+      (the default audience). If this script addresses an area manager
+      instead, there's a stated reason for the exception.
+- [ ] What does that manager currently believe? What will the video challenge?
 - [ ] Any worked examples needed have been identified (Sarah Mitchell or
       real-territory scenario)
 
@@ -301,7 +303,11 @@ about your own territory, a checklist for spotting the problem. The teaching
 itself belongs in the video, given away properly. A download that's really a
 withheld chapter of the method contradicts the giveaway rule.
 
-No lead magnet exists yet. Until one does, this section is inactive.
+**The lead magnet already exists:** the free PDF on which accounts are
+actually costing you sales — `https://mark-young-sales.kit.com/94eaa538e7`.
+It's already carried in the video descriptions with UTM tags. What hasn't
+been done is moving the *spoken* mention from the end of the video to just
+after the first teaching moment. Do that from the next script onward.
 
 **UTM reminder:** Every CTA link must be UTM-tagged. Confirm which
 destination applies for this video (waitlist, coaching call, or lead

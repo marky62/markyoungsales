@@ -83,7 +83,45 @@ Applied in full. Summary of what changed:
 - **Performance reviews** record enquiries per video and never judge an MYS
   video on views alone.
 
-### Parked
+---
 
-- **Aiming at sales managers and heads of sales** as a larger buyer, rather
-  than individual reps. Raised 27 August 2026.
+## 27 August 2026 — Audience pivot to Sales Managers
+
+Row 16 resolved. **The channel now addresses the Sales Manager running a team
+of B2B area managers**, each owning a territory. Regional/national sales
+managers and heads of sales are the same buyer. The subject is how to run that
+team properly — territory and coverage across several patches, a shared
+account classification standard, coaching to a framework, reviews that produce
+decisions.
+
+Area managers and field salespeople are the team being managed, not the
+viewer. They'll keep watching; the scripts don't speak to them.
+
+**Why:** the thesis is a manager's problem. A rep can't change the coverage
+model, the call-rate target, or what the CRM demands. Mark's own case study —
+750 accounts cut to roughly half, 60% more business — is a management decision.
+
+**Where it's going:** corporate clients and sales consultancy. The cohort and
+the £197 call are the near-term offers and the credibility-builders for it.
+In-house team engagements stay opportunistic until online credibility is built
+— not a productised offer, and cohort places are not sold in bulk to one
+employer (ten seats filled by one company breaks the room).
+
+**Re-pointing load:** small. Nine videos are published and stay as they are.
+Only video 10 (written) and video 11 (packaging locked) need re-pointing
+before filming.
+
+---
+
+## Record corrections — 27 August 2026
+
+Two errors introduced into the skills on 27 August, now fixed:
+
+- The scripting skill claimed **no lead magnet exists**. One does — the free
+  PDF at `mark-young-sales.kit.com/94eaa538e7`, already UTM-tagged in the
+  descriptions. What's outstanding is moving the spoken mention earlier in
+  the video, not building the asset.
+- The title skill listed **five locked videos** as the published set. Nine are
+  live, and three of the launch five were retitled at or after publishing.
+  `VIDEOS.md` is now the reconciled record and should be checked before
+  assuming anything about what's published.
