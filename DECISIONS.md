@@ -6,7 +6,7 @@ same commit.
 
 ---
 
-## 26 August 2026 — Offer stack restructure
+## 27 August 2026 — Offer stack restructure
 
 Prompted by a review of Wes McDowell's expert-brand material against the
 existing system.
@@ -54,7 +54,7 @@ shouldn't be.
 
 ---
 
-## 26 August 2026 — YouTube craft changes (rows 2–15)
+## 27 August 2026 — YouTube craft changes (rows 2–15)
 
 Applied in full. Summary of what changed:
 
@@ -86,4 +86,4 @@ Applied in full. Summary of what changed:
 ### Parked
 
 - **Aiming at sales managers and heads of sales** as a larger buyer, rather
-  than individual reps. To be discussed 27 August 2026.
+  than individual reps. Raised 27 August 2026.
