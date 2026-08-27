@@ -311,13 +311,17 @@ its price, or its sales page in any script.
 - One sentence on who it's for and what it does
 - That's it
 
-### The lead magnet goes early, not at the end
+### The lead magnet goes after brick one
 
 Most viewers never reach the last thirty seconds, so an end-of-video mention
-of a free download reaches the smallest possible audience. Mention it
-immediately after the first real teaching moment instead — once the viewer
-has had something genuinely useful and is inclined to think there's more
-where that came from.
+of a free download reaches the smallest possible audience.
+
+**The placement is fixed: immediately after brick one closes.** Not in the
+hook, because the viewer hasn't been given anything yet and it reads as a
+toll gate. Not after brick two or three, because every brick you wait costs
+you the viewers who left in the meantime. Brick one's logic half is the
+first point where the viewer has had something genuinely useful, and that's
+when they're most inclined to believe there's more where it came from.
 
 Pitch it as extra help for them, not as a favour to Mark. Name it, say where
 it is, get straight back into the video. The whole interruption is about
@@ -482,8 +486,8 @@ Before presenting any draft to Mark:
       handoff, never both
 - [ ] The video hands off rather than wrapping up, unless this is an
       offer-CTA video (roughly one in four)
-- [ ] Any lead magnet mention sits after the first teaching moment, not
-      at the end
+- [ ] The lead magnet mention sits immediately after brick one — not later,
+      not at the end
 - [ ] No borrowed statistics (Mehrabian, seven hours, eleven touchpoints)
 - [ ] The UTM-tagged link destination has been confirmed (waitlist,
       £197 call, or lead magnet)
