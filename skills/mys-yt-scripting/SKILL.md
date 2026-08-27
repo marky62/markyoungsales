@@ -163,6 +163,28 @@ call management."
 Example of a strong transition: "Here's where most of the wasted time
 actually lives — and it's not where you'd expect."
 
+**Transitions must stand completely alone.** Brick headings, and the
+emotion/logic labels, are scaffolding for whoever is writing the script.
+None of it is ever spoken. So a transition that only makes sense because
+there's a heading sitting above it will land as a non-sequitur on camera,
+and the viewer will feel the join.
+
+**The test:** cover the heading and read the transition cold. Does it tell
+the viewer what's coming and give them a reason to stay for it? Watch for
+these three failure patterns in particular:
+
+- **Pointing at the heading.** "Once you've got that, it's straightforward"
+  — got what? The transition is relying on a title the viewer can't see.
+- **Announcing rather than opening.** "Which brings us back to those two
+  people from the start" tells the viewer where they are but gives them no
+  reason to care. A transition that only navigates isn't a setup.
+- **Naming the concept in the heading but not out loud.** If the brick is
+  built on a named concept, the concept has to be introduced in the spoken
+  words, not assumed from the label.
+
+Every transition should survive being read on its own to somebody who
+hasn't seen the script.
+
 **Emotion half (Problem + Example):**
 The problem is what the viewer currently experiences or believes.
 The example makes it visible — a story, a scenario, or a concrete
@@ -472,6 +494,8 @@ Before presenting any draft to Mark:
 - [ ] The hook contains a macro setup that is paid off in the bridge
 - [ ] Every brick has a transition (setup), emotion half, and logic half
       (payoff) — or a clear reason why the emotion half was shortened/skipped
+- [ ] Every transition stands alone — read cold with the heading covered,
+      it still says what's coming and why the viewer should stay
 - [ ] No brick payoff is given before the viewer has been set up to want it
 - [ ] Every setup in the entire script has a corresponding payoff
 - [ ] The method is taught properly — nothing held back to protect the offer
