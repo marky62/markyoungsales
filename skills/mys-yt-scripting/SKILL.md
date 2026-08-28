@@ -48,6 +48,19 @@ Each sentence does one job.
 "Won't" not "will not". "Didn't" not "did not". The only exception is when
 the emphasis specifically requires the full form.
 
+**Audit the crutch words before presenting.** Certain intensifiers creep in
+one at a time and only look excessive once counted across the whole script:
+**actually, genuinely, really, just, quietly, obviously, basically, simply**.
+
+Each one is defensible in isolation, which is exactly why they accumulate.
+Count every instance in the finished draft. A word like "actually" earns its
+place only where it marks a real contrast between what someone believes and
+what is true — "not what they believe they do, what the diary actually
+shows". Everywhere else it's padding, and it flattens the times it matters.
+
+Rule of thumb: no more than two or three of any one of these across a whole
+script, and none of them twice in the same paragraph.
+
 **Never say "rep".** It's lazy and it's a little disrespectful about the people
 the audience manages. Use **area manager** when referring to a specific member
 of the team, **salesperson** or **field salesperson** when the reference is
@@ -526,6 +539,8 @@ Before presenting any draft to Mark:
       not at the end
 - [ ] No borrowed statistics (Mehrabian, seven hours, eleven touchpoints)
 - [ ] The word "rep" appears nowhere in the spoken script
+- [ ] Crutch words counted across the whole script — actually, genuinely,
+      really, just, quietly — none of them more than two or three times
 - [ ] The UTM-tagged link destination has been confirmed (waitlist,
       £197 call, or lead magnet)
 - [ ] The script sounds like Mark when read aloud — not a YouTuber,
