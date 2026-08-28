@@ -11,16 +11,16 @@ cd "$(dirname "$0")/.."
 mkdir -p dist
 skills=("$@")
 if [ ${#skills[@]} -eq 0 ]; then
-  mapfile -t skills < <(find skills -maxdepth 1 -mindepth 1 -type d -printf '%f\n' | sort)
+  mapfile -t skills < <(find .claude/skills -maxdepth 1 -mindepth 1 -type d -printf '%f\n' | sort)
 fi
 for s in "${skills[@]}"; do
-  if [ ! -f "skills/$s/SKILL.md" ]; then
+  if [ ! -f ".claude/skills/$s/SKILL.md" ]; then
     echo "skip $s — no SKILL.md" >&2; continue
   fi
   python3 - "$s" <<'PY'
 import sys, zipfile, pathlib
 s = sys.argv[1]
-src = pathlib.Path('skills') / s
+src = pathlib.Path('.claude/skills') / s
 out = pathlib.Path('dist') / (s + '.skill')
 with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED) as z:
     for f in sorted(src.rglob('*')):
