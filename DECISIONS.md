@@ -146,3 +146,26 @@ Packaging `.skill` files is no longer part of the routine, though
 Prompted by the sync incident earlier the same day, and by the Save skill
 button being unavailable on Mark's account, which made account installs
 awkward enough not to be worth maintaining for a surface he doesn't use.
+
+---
+
+## 28 August 2026 — Videos 12 and 13 locked
+
+Two pull (search-led) scripts written for the Sales Manager audience and saved
+to Notion under the project workflow page.
+
+- **Video 12 — How Many Accounts Per Sales Rep Is Too Many?** Named concept:
+  the coverage floor. Ends by handing off to Video 13.
+- **Video 13 — How to Cut Customer Visits Without Losing Sales.** Named
+  concept: the silent drop. Ends by handing off to Video 9.
+
+Reviewed line by line through the artifact comment thread. Rules that came out
+of that review and are now in the scripting skill: transitions must stand alone
+without their brick headings; the lead magnet mention sits immediately after
+brick one; "rep" is banned from all spoken and written copy; crutch words are
+counted across the finished draft rather than judged line by line.
+
+**Still open:** the Video 12 title carries "Sales Rep" because that is the
+search phrase. Alternatives are recorded on the Notion page. Also unresolved:
+whether the five remaining uses of "patch" should become "territory", and a
+told/told echo in Video 13 brick 2.

@@ -33,7 +33,12 @@ Where they differ, both are shown.
 
 | # | Title | Status |
 |---|---|---|
-| 11 | Claude Cuts Your Prospecting Time in Half | Packaging locked. Bricks not written. |
+| 11 | Claude Cuts Your Prospecting Time in Half | Packaging locked. Bricks not written. Rep-facing — needs re-pointing to the Sales Manager audience before scripting. |
+| 12 | How Many Accounts Per Sales Rep Is Too Many? | **Script LOCKED (28 Aug 2026).** First script for the Sales Manager audience. Pull video. Named concept: the coverage floor. |
+| 13 | How to Cut Customer Visits Without Losing Sales | **Script LOCKED (28 Aug 2026).** Pull video. Named concept: the silent drop. |
+
+**Film 12 and 13 in one session** — 12's ending hands off to 13, so 13 must
+exist by the time 12 publishes. 13 hands off to Video 9, which is already live.
 
 ---
 
