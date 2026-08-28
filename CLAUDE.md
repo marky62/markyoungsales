@@ -7,35 +7,35 @@ the work is done, plus the public site.
 
 | Thing | Lives in |
 |---|---|
-| Skill content, and what Claude Code loads in this repo | **This repo**, `.claude/skills/*/SKILL.md` |
-| What Cowork and other surfaces load | **Mark's Claude account** |
+| Skill content, and what Claude loads in this repo | **This repo**, `.claude/skills/*/SKILL.md` |
 | Locked decisions and their reasoning | `DECISIONS.md` |
 | What's published on the channel | `VIDEOS.md` |
 | Approved scripts | Notion (page IDs are in the relevant skill) |
 
-The skills live at `.claude/skills/`, which is the project skills location.
-Any Claude Code session in this repo loads them from here automatically, and a
-project skill **overrides a skill of the same name synced from the claude.ai
-account** — so the repo always wins locally, and the skills sync cannot revert
-them.
+The skills live at `.claude/skills/`, the project skills location. Any Claude
+Code session **in this repo** loads them from here automatically, and a project
+skill **overrides a skill of the same name synced from the claude.ai account**,
+so the repo always wins and the skills sync cannot revert it.
 
-Cowork is not repo-scoped, so it still loads the account copies. Those only
-change when a `.skill` package is saved into the account.
+**The copies in Mark's claude.ai account are stale and deliberately unused.**
+They were last updated in June 2026 and are months behind. Don't treat them as
+a second source, don't reconcile against them, and don't quote them. If Cowork
+or another non-repo surface is ever used for this work, they'd need installing
+first — assume they are wrong until that happens.
 
-## Standing rule — package skills whenever they change
+## Standing rule — commit skill changes before the session ends
 
-**Any session that edits a file under `.claude/skills/` must, before it ends:**
+**Any session that edits a file under `.claude/skills/` must commit and push it
+before ending.** That is the whole step. The commit is what makes the change
+live for every future session in this repo.
 
-1. Commit and push. That alone makes the change live for Claude Code sessions
-   in this repo.
-2. Run `./scripts/package-skills.sh <changed-skill> [...]` — or with no
-   arguments to rebuild all five.
-3. Send the resulting `dist/*.skill` files to Mark with `SendUserFile`, and say
-   plainly that Cowork keeps running the old rules until he installs them.
+An uncommitted skill edit is lost when the container is reclaimed, and it takes
+the reasoning with it — so commit even a small wording fix, and say in the
+message what changed and why.
 
-Do steps 2 and 3 without being asked. Note that the **Save skill** button on
-the file card does not appear for Mark's account, so he installs them through
-claude.ai settings.
+Never edit the copies under `~/.claude/skills/synced/`. That directory is a
+cache of the account skills; it gets wiped and refreshed without warning, and
+anything written there is gone.
 
 ### Why this rule exists
 
@@ -44,13 +44,9 @@ account mid-session, moved the local folder to `.trash`, and restored months-old
 versions — silently reverting that week's rule changes. Nothing was lost only
 because everything was already committed.
 
-Moving the skills to `.claude/skills/` fixes this for Claude Code: project
-skills are read from the repo and override the synced account copies by name,
-so a sync can no longer revert them. Never edit the copies under
-`~/.claude/skills/synced/` — they are a cache and get replaced without warning.
-
-The account copies still matter for Cowork, and an account left stale is worse
-than it sounds because the drift is invisible.
+Moving the skills to `.claude/skills/` fixed it: project skills are read from
+the repo and override the synced account copies by name, so a sync can no
+longer revert them.
 
 ## Working notes
 
@@ -58,3 +54,6 @@ than it sounds because the drift is invisible.
   `mys-vod-scripting` now covers the live cohort
   programme; the folder keeps its old name so installed copies don't break.
 - `dist/` is a build directory and is not committed.
+- `scripts/package-skills.sh` builds installable `.skill` files. It is not part
+  of the routine — it exists only if the skills ever need to go somewhere that
+  isn't this repo.

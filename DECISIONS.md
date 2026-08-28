@@ -125,3 +125,24 @@ Two errors introduced into the skills on 27 August, now fixed:
   live, and three of the launch five were retitled at or after publishing.
   `VIDEOS.md` is now the reconciled record and should be checked before
   assuming anything about what's published.
+
+---
+
+## 28 August 2026 — Claude Code is the only surface
+
+The five skills moved from `skills/` to `.claude/skills/`, the project skills
+location. Claude Code sessions in this repo load them from there, and a project
+skill overrides a same-named skill synced from the claude.ai account — so the
+repo is authoritative and the skills sync can no longer revert rule changes.
+
+**Mark works in Claude Code on this repo. Cowork is out of scope.** The account
+copies of the five skills are stale (June 2026) and deliberately unused. They
+are not maintained and should not be treated as a second source of truth.
+
+Consequence: the only step needed when a skill changes is committing it.
+Packaging `.skill` files is no longer part of the routine, though
+`scripts/package-skills.sh` remains if the skills ever need to leave the repo.
+
+Prompted by the sync incident earlier the same day, and by the Save skill
+button being unavailable on Mark's account, which made account installs
+awkward enough not to be worth maintaining for a surface he doesn't use.
