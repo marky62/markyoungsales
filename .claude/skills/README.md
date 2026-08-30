@@ -5,8 +5,10 @@ Sales business. Each skill encodes the rules, frameworks, decisions, and
 context needed to produce consistent work across sessions without having
 to re-explain everything from scratch.
 
-Install these `.skill` files in any Claude environment (Cowork, Claude Code)
-that needs access to them.
+These skills live at `.claude/skills/`, so any Claude Code session working in
+this repository loads them automatically — no installation step. Editing a
+skill here and committing the change updates it for every future session, and
+the change is recorded in the project history.
 
 ---
 
